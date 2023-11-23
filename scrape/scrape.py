@@ -2,41 +2,15 @@ from __future__ import annotations
 from exceptions import NeedYearArgumentOnlyException, NonNumericYearArgumentException
 from typing import Dict
 from bs4 import BeautifulSoup
+from calendar_dict import INT_TO_MONTH, INT_TO_WEEKDAY_DICT
 
 import requests
 import json
 import sys
 import datetime
 
-
 #document.querySelectorAll(".newDateText", ".headderNew");
-
 # Example: python scrape.py 2080 fetches data for 2080B.S and saves them in database/2080.json
-
-INT_TO_WEEKDAY_DICT = {
-        0:("Monday","सोमवार"),
-        1:("Tuesday","मङ्गलवार"),
-        2:("Wednesday","बुधवार"),
-        3:("Thursday","बिहिवार"),
-        4:("Friday","शुक्रवार"),
-        5:("Saturday","शनिवार"),
-        6:("Sunday","आइतवार"),
-        }
-
-INT_TO_MONTH= {
-        1:"Baishakh",
-        2:"Jestha",
-        3:"Asar",
-        4:"Shrawan",
-        5:"Bhadau",
-        6:"Aswin",
-        7:"Kartik",
-        8:"Mansir",
-        9:"Poush",
-        10:"Magh",
-        11:"Falgun",
-        12:"Chaitra",
-}
 
 def fetch_and_parse(year : int) -> str:
     HAMRO_PATRO_URL = f"https://www.hamropatro.com/calendar/{year}/"
@@ -48,7 +22,20 @@ def fetch_and_parse(year : int) -> str:
         all_months_data[INT_TO_MONTH[current_month]] = current_month_dict
 
         r = requests.get(url=HAMRO_PATRO_URL+str(current_month))
-        current_month_dict["days"] = parse_html(r.content, current_month, year)
+
+        days_dict, month_info = parse_html(r.content, current_month, year)
+
+        current_month_dict["days"] = days_dict
+
+
+        nepali_month_info = month_info[0].text.split()
+        english_month_info = month_info[1].text.split()
+
+        current_month_dict["nep_year"] = nepali_month_info[0]
+        current_month_dict["nep_name"] = nepali_month_info[1]
+
+        current_month_dict["eng_months"] = english_month_info[0]
+        current_month_dict["eng_years"] = english_month_info[1]
 
         current_month +=1
 
@@ -59,6 +46,7 @@ def parse_html(html : bytes, current_month : int, nep_year: int) -> Dict:
     soup = BeautifulSoup(html, 'lxml')
     calendar_body = soup.find(class_="calendar")
     dates_body = calendar_body.find(class_="dates")
+    month_info = soup.find_all(class_="newDateText")
 
     current_nepali_day = 1
 
@@ -89,12 +77,11 @@ def parse_html(html : bytes, current_month : int, nep_year: int) -> Dict:
             # get nepali and english weekday
             current_nepali_day += 1
 
-    return month_dict
+    return month_dict, month_info
 
 
-def save_to_file(calendar_year_data : Dict)->None:
+def save_as_json_file(calendar_year_data : Dict)->None:
     print(json.dumps(calendar_year_data, indent=2))
-    pass
 
 def main() -> None:
     if len(sys.argv) != 2:
@@ -104,8 +91,12 @@ def main() -> None:
     if not year.isnumeric():
         raise NonNumericYearArgumentException("Year argument needs to be numeric")
 
-    all_months_data : str = fetch_and_parse(int(year))
-    save_to_file(all_months_data)
+    
+    response_dict= {}
+    response_dict["months"] = fetch_and_parse(int(year))
+    response_dict["year"] = year
+    response_dict["meta"] = {"year_format":"YYYY-MM-DD"}
+    save_as_json_file(response_dict)
 
 if __name__ == '__main__':
     main()
