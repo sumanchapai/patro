@@ -7,16 +7,20 @@ from calendar_dict import INT_TO_MONTH, INT_TO_WEEKDAY_DICT
 import requests
 import json
 import sys
+import os
 import datetime
 
-#document.querySelectorAll(".newDateText", ".headderNew");
 # Example: python scrape.py 2080 fetches data for 2080B.S and saves them in database/2080.json
 
 def fetch_and_parse(year : int) -> str:
+
     HAMRO_PATRO_URL = f"https://www.hamropatro.com/calendar/{year}/"
+
     current_month = 1
+    max_month = 12
+
     all_months_data = {}
-    while current_month < 2:
+    while current_month <= max_month:
 
         current_month_dict = {}
         all_months_data[INT_TO_MONTH[current_month]] = current_month_dict
@@ -80,8 +84,16 @@ def parse_html(html : bytes, current_month : int, nep_year: int) -> Dict:
     return month_dict, month_info
 
 
-def save_as_json_file(calendar_year_data : Dict)->None:
-    print(json.dumps(calendar_year_data, indent=2))
+def save_as_json_file(calendar_year_data : Dict, year : int)->None:
+
+    path_to_dump = os.path.join(os.path.dirname(__file__), f"data/{year}.json")
+
+    if os.path.exists(path_to_dump):
+        pass
+        # let user know we are overwriting existing data
+
+    with open(path_to_dump, 'w') as json_file:
+        json_file.write(json.dumps(calendar_year_data, indent=2))
 
 def main() -> None:
     if len(sys.argv) != 2:
@@ -96,7 +108,7 @@ def main() -> None:
     response_dict["months"] = fetch_and_parse(int(year))
     response_dict["year"] = year
     response_dict["meta"] = {"year_format":"YYYY-MM-DD"}
-    save_as_json_file(response_dict)
+    save_as_json_file(response_dict, year)
 
 if __name__ == '__main__':
     main()
