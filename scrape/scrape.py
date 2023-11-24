@@ -104,7 +104,7 @@ def parse_html(html: bytes, current_month: int,
 def save_as_json_file(calendar_year_data: Dict[str, Union[Dict, int]],
                       year: int) -> None:
 
-    path_to_dump: str = os.path.join(os.path.dirname(__file__),
+    path_to_dump: str = os.path.join(os.path.dirname(os.path.dirname(__file__)),
                                      f"data/{year}.json")
 
     if os.path.exists(path_to_dump):
