@@ -1,5 +1,5 @@
 # Patro
-HamroPatro has too much adds. We scrape their website, save data (date and tihis) in JSON and build alternative simpler add free mobile app and website out of it.
+HamroPatro has too much ads. We scrape their website, save data (date and tihis) in JSON and build alternative simpler ad-free mobile app and website out of it.
 
 ## API
 Meta at: <https://sumanchapai.github.io/patro/meta.json>\
