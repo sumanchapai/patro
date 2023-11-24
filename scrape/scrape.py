@@ -1,11 +1,4 @@
 from __future__ import annotations
-from exceptions import NeedYearArgumentOnlyException, NonNumericYearArgumentException
-from typing import Dict, Union, List, Tuple
-from bs4 import BeautifulSoup
-from calendar_dict import INT_TO_MONTH, INT_TO_WEEKDAY_DICT
-from rich.progress import BarColumn, MofNCompleteColumn, Progress, \
-    TextColumn, TimeElapsedColumn
-
 
 import datetime
 import json
@@ -16,12 +9,17 @@ from typing import Dict, List, Tuple, Union
 
 import bs4
 import requests
+from rich.progress import (BarColumn, MofNCompleteColumn, Progress, TextColumn,
+                           TimeElapsedColumn)
 
 from calendar_dict import INT_TO_MONTH, INT_TO_WEEKDAY_DICT
 from exceptions import (InvalidYearException, NeedYearArgumentOnlyException,
                         NonNumericYearArgumentException)
 
 # Example: python scrape.py 2080 fetches data for 2080B.S and saves them in database/2080.json
+
+META_DATA_JSON_FILE_PATH: str = os.path.join(
+    os.path.dirname(os.path.dirname(__file__)), "data/meta.json")
 
 
 def fetch_and_parse(year: int) -> Dict[str, Dict]:
@@ -34,46 +32,54 @@ def fetch_and_parse(year: int) -> Dict[str, Dict]:
     all_months_data: Dict[str, Dict] = {}
 
     with Progress(
-    TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
-    BarColumn(),
-    MofNCompleteColumn(),
-    TextColumn("•"),
-    TimeElapsedColumn(),
-) as p:
+            TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+            BarColumn(),
+            MofNCompleteColumn(),
+            TextColumn("•"),
+            TimeElapsedColumn(),
+    ) as p:
 
-        
         for i in p.track(range(max_month)):
 
-            current_month_dict : Dict[str, Union[str,Dict]] = {}
+            current_month_dict: Dict[str, Union[str, Dict]] = {}
             all_months_data[INT_TO_MONTH[current_month]] = current_month_dict
 
-            r : requests.models.Response = requests.get(url=HAMRO_PATRO_URL+str(current_month))
+            r: requests.models.Response = requests.get(url=HAMRO_PATRO_URL +
+                                                       str(current_month))
 
             if r.status_code != 200:
                 raise InvalidYearException("Invalid year value")
 
-            tuple_response : Tuple[ Dict, List]  = parse_html(r.content, current_month, year)
-            days_dict : Dict[int, Dict] = tuple_response[0]
-            month_info : List[bs4.element.Tag] = tuple_response[1]
+            tuple_response: Tuple[List,
+                                  List] = parse_html(r.content, current_month,
+                                                     year)
+            days_list: List[Dict] = tuple_response[0]
+            month_info: List[bs4.element.Tag] = tuple_response[1]
 
-            current_month_dict["days"] = days_dict
+            current_month_dict["days"] = days_list
 
-            nepali_month_info : List[str] = month_info[0].text.split()
-            english_month_info : List[str] = month_info[1].text.split()
+            nepali_month_info: List[str] = month_info[0].text.split()
+            english_month_info: List[str] = month_info[1].text.split()
 
-            current_month_dict["nep_year"] : str = nepali_month_info[0]
-            current_month_dict["nep_name"] : str = nepali_month_info[1]
+            current_month_dict["nep_year"]: str = nepali_month_info[0]
+            current_month_dict["nep_name"]: str = nepali_month_info[1]
 
-            current_month_dict["eng_months"] : str = english_month_info[0]
-            current_month_dict["eng_years"] : str = english_month_info[1]
+            current_month_dict["eng_months"]: str = english_month_info[0]
+            current_month_dict["eng_years"]: str = english_month_info[1]
 
-            current_month +=1
+            current_month_dict["first_day_AD"]: str = days_list[0]["eng_date"]
+            current_month_dict["last_day_AD"]: str = days_list[-1]["eng_date"]
+
+            current_month_dict["first_day_BS"]: str = days_list[0]["nep_date"]
+            current_month_dict["last_day_BS"]: str = days_list[-1]["nep_date"]
+
+            current_month += 1
 
     return all_months_data
 
 
 def parse_html(html: bytes, current_month: int,
-               nep_year: int) -> Tuple[Dict, List]:
+               nep_year: int) -> Tuple[List, List]:
 
     soup: bs4.BeautifulSoup = bs4.BeautifulSoup(html, 'lxml')
     calendar_body: bs4.element.Tag = soup.find(class_="calendar")
@@ -82,7 +88,7 @@ def parse_html(html: bytes, current_month: int,
 
     current_nepali_day: int = 1
 
-    month_dict: Dict[int, Dict] = {}
+    month_list: List[Dict] = []
 
     for li_tag in dates_body.find_all("li"):
 
@@ -92,7 +98,7 @@ def parse_html(html: bytes, current_month: int,
         if english_data != "0":
 
             day_dict: Dict[str, str] = {}
-            month_dict[current_nepali_day] = day_dict
+            month_list.append(day_dict)
 
             day_dict["event"]: str = li_tag.find(class_="event").text
             day_dict["nep"]: str = li_tag.find(class_="nep").text
@@ -113,23 +119,52 @@ def parse_html(html: bytes, current_month: int,
 
             current_nepali_day += 1
 
-    return (month_dict, month_info)
+    return (month_list, month_info)
+
+
+def update_meta_json(calendar_year_data: Dict[str, Union[Dict, int]],
+                     year: int):
+
+    if not os.path.exists(META_DATA_JSON_FILE_PATH):
+        with open(META_DATA_JSON_FILE_PATH, 'w') as f:
+            f.write(json.dumps({}))
+
+    with open(META_DATA_JSON_FILE_PATH, 'r') as in_json_file:
+        meta_data_dict = json.load(in_json_file)
+
+    if year not in meta_data_dict:
+        meta_data_dict[year] = {}
+
+    meta_data_dict[year]["first_day_AD"] = calendar_year_data["months"][
+        "Baishakh"]["first_day_AD"]
+    meta_data_dict[year]["last_day_AD"] = calendar_year_data["months"][
+        "Chaitra"]["last_day_AD"]
+
+    meta_data_dict[year]["first_day_BS"] = calendar_year_data["months"][
+        "Baishakh"]["first_day_BS"]
+    meta_data_dict[year]["last_day_BS"] = calendar_year_data["months"][
+        "Chaitra"]["last_day_BS"]
+
+    with open(META_DATA_JSON_FILE_PATH, 'w') as out_json_file:
+        out_json_file.write(json.dumps(meta_data_dict, indent=2))
 
 
 def save_as_json_file(calendar_year_data: Dict[str, Union[Dict, int]],
                       year: int) -> None:
 
-    path_to_dump: str = os.path.join(os.path.dirname(os.path.dirname(__file__)),
-                                     f"data/{year}.json")
+    PATH_TO_DUMP: str = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)), f"data/{year}.json")
 
-    if os.path.exists(path_to_dump):
+    if os.path.exists(PATH_TO_DUMP):
 
-        print(f"--- Overwriting existing path : {path_to_dump} ---")
+        print(f"--- Overwriting existing path : {PATH_TO_DUMP} ---")
 
-    with open(path_to_dump, 'w') as json_file:
+    with open(PATH_TO_DUMP, 'w') as json_file:
 
         json_file.write(json.dumps(calendar_year_data, indent=2))
-        print(f"--- Saved JSON data for year {year} in {path_to_dump} ---")
+        print(f"--- Saved JSON data for year {year} in {PATH_TO_DUMP} ---")
+
+    update_meta_json(calendar_year_data, year)
 
 
 def main() -> None:
