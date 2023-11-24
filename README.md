@@ -3,4 +3,5 @@ HamroPatro has too much adds. We scrape their website, save data (date and tihis
 
 ## API
 Meta at: <https://sumanchapai.github.io/patro/meta.json>\
-Year data at <https://sumanchapai.github.io/patro/{year}.json>. For example: <https://sumanchapai.github.io/patro/2080.json>
+Year data available by replacing the word `meta` in the meta api with the year.
+For example: <https://sumanchapai.github.io/patro/2080.json>
