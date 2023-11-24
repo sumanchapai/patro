@@ -2,7 +2,17 @@ beautifulsoup4==4.12.2
 certifi==2023.11.17
 charset-normalizer==3.3.2
 idna==3.4
+importlib-metadata==6.8.0
+isort==5.12.0
 lxml==4.9.3
+markdown-it-py==3.0.0
+mdurl==0.1.2
+platformdirs==4.0.0
+Pygments==2.17.2
 requests==2.31.0
+rich==13.7.0
 soupsieve==2.5
+tomli==2.0.1
 urllib3==2.1.0
+yapf==0.40.2
+zipp==3.17.0
