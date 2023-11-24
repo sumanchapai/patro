@@ -1,4 +1,11 @@
 from __future__ import annotations
+from exceptions import NeedYearArgumentOnlyException, NonNumericYearArgumentException
+from typing import Dict, Union, List, Tuple
+from bs4 import BeautifulSoup
+from calendar_dict import INT_TO_MONTH, INT_TO_WEEKDAY_DICT
+from rich.progress import BarColumn, MofNCompleteColumn, Progress, \
+    TextColumn, TimeElapsedColumn
+
 
 import datetime
 import json
@@ -26,33 +33,41 @@ def fetch_and_parse(year: int) -> Dict[str, Dict]:
 
     all_months_data: Dict[str, Dict] = {}
 
-    while current_month <= max_month:
+    with Progress(
+    TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+    BarColumn(),
+    MofNCompleteColumn(),
+    TextColumn("•"),
+    TimeElapsedColumn(),
+) as p:
 
-        current_month_dict: Dict[str, Union[str, Dict]] = {}
-        all_months_data[INT_TO_MONTH[current_month]] = current_month_dict
+        
+        for i in p.track(range(max_month)):
 
-        r: requests.models.Response = requests.get(url=HAMRO_PATRO_URL +
-                                                   str(current_month))
-        if r.status_code != 200:
-            raise InvalidYearException("Invalid year value")
+            current_month_dict : Dict[str, Union[str,Dict]] = {}
+            all_months_data[INT_TO_MONTH[current_month]] = current_month_dict
 
-        tuple_response: Tuple[Dict, List] = parse_html(r.content,
-                                                       current_month, year)
-        days_dict: Dict[int, Dict] = tuple_response[0]
-        month_info: List[bs4.element.Tag] = tuple_response[1]
+            r : requests.models.Response = requests.get(url=HAMRO_PATRO_URL+str(current_month))
 
-        current_month_dict["days"] = days_dict
+            if r.status_code != 200:
+                raise InvalidYearException("Invalid year value")
 
-        nepali_month_info: List[str] = month_info[0].text.split()
-        english_month_info: List[str] = month_info[1].text.split()
+            tuple_response : Tuple[ Dict, List]  = parse_html(r.content, current_month, year)
+            days_dict : Dict[int, Dict] = tuple_response[0]
+            month_info : List[bs4.element.Tag] = tuple_response[1]
 
-        current_month_dict["nep_year"]: str = nepali_month_info[0]
-        current_month_dict["nep_name"]: str = nepali_month_info[1]
+            current_month_dict["days"] = days_dict
 
-        current_month_dict["eng_months"]: str = english_month_info[0]
-        current_month_dict["eng_years"]: str = english_month_info[1]
+            nepali_month_info : List[str] = month_info[0].text.split()
+            english_month_info : List[str] = month_info[1].text.split()
 
-        current_month += 1
+            current_month_dict["nep_year"] : str = nepali_month_info[0]
+            current_month_dict["nep_name"] : str = nepali_month_info[1]
+
+            current_month_dict["eng_months"] : str = english_month_info[0]
+            current_month_dict["eng_years"] : str = english_month_info[1]
+
+            current_month +=1
 
     return all_months_data
 
