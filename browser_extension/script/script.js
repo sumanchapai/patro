@@ -5,6 +5,8 @@ var months_in_eng = ["baishakh", "jestha", "asar", "shrawan",
 var weekNamesArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 var current_date_td_element = null;
+var current_selected_td_element = null;
+var current_selected_td_element_id = null;
 
 var index_to_month = {
     0:'Baishakh',
@@ -51,6 +53,7 @@ function reset_td_values(){
     let tbody = document.querySelector("tbody");
     for (let td of tbody.querySelectorAll("td")){
         td.innerText = "";
+        td.removeAttribute("id");
     }
 }
 
@@ -60,7 +63,6 @@ function populateTrValues(monthValue){
     let all_td_elements = tbody_element.querySelectorAll("td");
     var current_day_index = 0
     
-    console.log(monthValue);
     let starting_week_index = 0;
     let all_days = yearData["months"][index_to_month[monthValue]]["days"];
 
@@ -104,15 +106,29 @@ async function showCalendar(monthValue, yearValue, first_time = false){
         yearData = response;
         populateTrValues(monthValue);
         highlightCurrentDay(first_time);
+        highlightSelectedDay();
 }
 }
+function highlightSelectedDay(){
+    if (current_selected_td_element){
+        if (current_selected_td_element_id != `${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`){
+            current_selected_td_element.removeAttribute("style");
+        }
+    }
 
+    let needed_element = document.getElementById(current_selected_td_element_id);
+    if (needed_element && needed_element != current_date_td_element){
+        needed_element.setAttribute("style", "border-radius: 50%;background-color:orange;line-height: 100%;text-align: center;");
+    }
+}
 function highlightCurrentDay(first_time){
     try {
         current_date_td_element = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
         if (current_date_td_element != null)
         current_date_td_element.setAttribute("style", "border-radius: 50%;background-color:blue;line-height: 100%;text-align: center;");
         if (first_time){
+            current_selected_td_element = current_date_td_element;
+            current_selected_td_element_id = current_date_td_element.id;
             displayDayInformation(current_date_td_element);
         }
     } catch (error) {
@@ -194,6 +210,17 @@ function displayDayInformation(td_element){
     document.querySelector("#month_display").innerText = document.querySelector("#current_month").innerText;
     document.querySelector("#year_display").innerText = document.querySelector("#current_year").innerText;
         // need to do for year display and month display
+    if (current_selected_td_element_id != `${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`){
+        current_selected_td_element.setAttribute("style", "");}
+
+    current_selected_td_element = td_element;
+    current_selected_td_element_id = td_element.getAttribute('id');
+
+    if (current_selected_td_element_id == `${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`){
+            current_selected_td_element.setAttribute("style", "border-radius: 50%;background-color:blue;line-height: 100%;text-align: center;");
+    } else {
+        current_selected_td_element.setAttribute("style", "border-radius: 50%;background-color:orange;line-height: 100%;text-align: center;");
+}
 }
 
 window.onload = function (){
