@@ -70,7 +70,6 @@ function populateTrValues(monthValue){
             break;
     }
         else{
-            
             starting_week_index++;}
     }
 
@@ -88,7 +87,7 @@ function populateTrValues(monthValue){
     }
 }
 
-async function showCalendar(monthValue, yearValue){
+async function showCalendar(monthValue, yearValue, first_time = false){
 
     if (!(ALL_YEARS_DATA.hasOwnProperty(yearValue))) {
         let response = await fetch(API_URL+`${yearValue}.json`)
@@ -97,22 +96,25 @@ async function showCalendar(monthValue, yearValue){
         yearData = response;
         ALL_YEARS_DATA[yearValue] = response
 
-        showCalendar(monthValue, yearValue)
+        showCalendar(monthValue, yearValue, first_time)
 
     } else {
 
         var response = ALL_YEARS_DATA[yearValue]
         yearData = response;
         populateTrValues(monthValue);
-        highlightCurrentDay();
+        highlightCurrentDay(first_time);
 }
 }
 
-function highlightCurrentDay(){
+function highlightCurrentDay(first_time){
     try {
         current_date_td_element = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
         if (current_date_td_element != null)
         current_date_td_element.setAttribute("style", "border-radius: 50%;background-color:blue;line-height: 100%;text-align: center;");
+        if (first_time){
+            displayDayInformation(current_date_td_element);
+        }
     } catch (error) {
         console.log(error) ;
     }
@@ -147,7 +149,6 @@ function changeMonthAndYear(type){
 
     if (current_date_td_element != null)
     current_date_td_element.setAttribute("style", "");
-    console.log("set-aatribute again")
     showCalendar(month_to_index[capitalizeString(month_value)], year_value);
 }
 
@@ -176,6 +177,23 @@ function create_tr_values(){
     }
 }
 
+function displayDayInformation(td_element){
+    let date = td_element.id.split('-');
+    let year = date[0];
+    let month = date[1];
+    let day = date[2];
+    let all_data = yearData["months"][capitalizeString(index_to_month[month-1])]["days"][day-1];
+
+    all_display_spans = document.querySelectorAll(".display");
+    
+    for (let span_element of all_display_spans){
+        span_element.innerText = all_data[span_element.id]
+    }
+    document.querySelector("#month_display").innerText = document.querySelector("#current_month").innerText;
+    document.querySelector("#year_display").innerText = document.querySelector("#current_year").innerText;
+        // need to do for year display and month display
+}
+
 window.onload = function (){
 
     populateWeekdays(document.querySelector("thead"),weekNamesArray);
@@ -190,14 +208,6 @@ window.onload = function (){
     document.querySelector("#current_month").innerText = index_to_month[month_value];
     document.querySelector("#current_year").innerText = year_value;
 
-//    populateElement(document.querySelector("#month"), ["Baishakh", "Jestha", "Asar", "Shrawan", 
- //       "Bhadau", "Aswin", "Kartik", "Mansir", "Poush", "Magh", "Falgun", "Chaitra"])
-    //addRowsToTable(document.querySelector("thead"), ["आइतवार", "सोमवार", "मङ्गलवार", "बुधवार", "बिहिवार",
-  //  addRowsToTable(document.querySelector("thead"), ["Sun", "Mon", "Tue", "Wed", "Thur",
-   // "Fri", "Sat"], "th");
-    //let monthValue = document.querySelector("#month").value;
-    //let yearValue = document.querySelector("#year").value;
     create_tr_values();
-    showCalendar(month_value, year_value);
-
+    showCalendar(month_value, year_value, true);
 }

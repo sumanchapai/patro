@@ -85,3 +85,41 @@ table {
   background: #1abc9c;
   color: white !important
 }
+
+#event {
+    top: -20%;
+    display: flex;
+    position: relative;
+
+}
+
+#tithi{
+    float: left;
+    top: 80%;
+    position: relative;
+
+}
+#all_display{
+    font-size: 29px;
+    /* left: 50px; */
+    text-align: center;
+    top: -13px;
+    position: relative;
+}
+
+#nep_weekday{
+    position: relative;
+    float: right;
+    top: -15px;
+}
+#eng_date{
+    position: relative;
+    top: -9px;
+}
+#nep_date{
+    position: relative;
+    top: -26px;
+    left: 26%;
+    font-size: 10px;
+
+}
