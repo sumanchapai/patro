@@ -171,6 +171,8 @@ function create_tr_values(){
         let tr_element = document.createElement("tr");
         for (let i=0; i < 7; i++){
             let td_element = document.createElement("td");
+            td_element.addEventListener("click",
+             ()=>{ displayDayInformation(td_element)})
             tr_element.appendChild(td_element);
         }
         tbody.append(tr_element);

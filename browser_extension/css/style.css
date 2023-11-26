@@ -87,15 +87,16 @@ table {
 }
 
 #event {
-    top: -20%;
-    display: flex;
-    position: relative;
-
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 7px;
 }
 
 #tithi{
     float: left;
-    top: 80%;
+    top: -24%;
     position: relative;
 
 }
@@ -115,11 +116,12 @@ table {
 #eng_date{
     position: relative;
     top: -9px;
+    left: -19px;
 }
 #nep_date{
     position: relative;
     top: -26px;
-    left: 26%;
+    left: 60px;
     font-size: 10px;
 
 }
