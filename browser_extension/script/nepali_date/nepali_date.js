@@ -114,31 +114,54 @@ class NepaliDate{
             //         2099 BS - 2042/2043 AD
                     ]
 
-    constructor(){
+    constructor(timezone = false, date_object = new Date()){
+        
+        if (timezone == true){
+            date_object = new Date().toLocaleDateString("en-US", {timeZone: "Asia/Kathmandu"}).split('/');
+            console.log(date_object);
+            date_object = new Date(date_object[2], date_object[0]-1, date_object[1]);
+        }
         this.year = NepaliDate.NEPAL_STARTING_YEAR;
         this.month = 0;
         this.date = 0;
-        this.diffDays = parseInt((new Date() - NepaliDate.ENG_STARTING_DATE_OBJECT) / (1000 * 60 * 60 * 24), 10);
+        this.diffDays = parseInt((date_object - NepaliDate.ENG_STARTING_DATE_OBJECT) / (1000 * 60 * 60 * 24), 10);
         
         let currentYearIndex = 0;
         let currentYearTotalDays = NepaliDate.NepaliYearAndMonthDays[currentYearIndex].reduce(function(pv, cv) { return pv + cv; }, 0);
         
-        while (this.diffDays >= currentYearTotalDays){
+        while (this.diffDays > currentYearTotalDays){
             currentYearIndex++;
-            currentYearTotalDays = NepaliDate.NepaliYearAndMonthDays[currentYearIndex].reduce(function(pv, cv) { return pv + cv; }, 0);
             this.diffDays -= currentYearTotalDays;
+            currentYearTotalDays = NepaliDate.NepaliYearAndMonthDays[currentYearIndex].reduce(function(pv, cv) { return pv + cv; }, 0);
         }
         this.year = this.year + currentYearIndex;
 
         let monthDayValues = NepaliDate.NepaliYearAndMonthDays[currentYearIndex];
         let currentMonthIndex = 0;
 
-        while (this.diffDays >= monthDayValues[currentMonthIndex]){
+        let diff = this.diffDays;
+        while (diff > monthDayValues[currentMonthIndex]){
             currentMonthIndex++;
-            this.diffDays -= monthDayValues[currentMonthIndex]
+            diff -= monthDayValues[currentMonthIndex-1]
+            if (diff >=0){
+                this.diffDays = diff;
+            }
         }
         this.month = currentMonthIndex;
-        this.date = this.diffDays+1;
+        this.date = this.diffDays + 1;
+
+        let max_days = NepaliDate.NepaliYearAndMonthDays[currentYearIndex][currentMonthIndex];
+        console.log(NepaliDate.NepaliYearAndMonthDays[currentYearIndex]);
+        if (this.date > max_days){
+            console.log('here');
+            this.month +=1;
+            this.date = 1;
+        }
+        if (this.month > 11){
+            this.month =0;
+            this.date = 1;
+            this.year += 1;
+        }
     }
 
     getYear() {

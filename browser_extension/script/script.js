@@ -42,7 +42,7 @@ var API_URL = "https://sumanchapai.github.io/patro/";
 
 var ALL_YEARS_DATA={};
 var yearData = null;
-var currentNepaliDate = new NepaliDate();
+var currentNepaliDate = new NepaliDate(true);
 
 
 function capitalizeString(string_){
