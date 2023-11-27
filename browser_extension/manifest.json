@@ -1,6 +1,6 @@
 {
     "name": "Patro",
-    "description": "Nepali calendar with events/tithis, date conversion and more",
+    "description": "Minimalistic And Simple Nepali Calendar",
     "manifest_version": 3,
     "version": "1.0.0",
     "icons": {

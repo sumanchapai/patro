@@ -105,6 +105,7 @@ async function showCalendar(monthValue, yearValue, firstTime = false){
         populateTrValues(monthValue);
         highlightCurrentDay(firstTime);
         highlightSelectedDay();
+        highlightCurrentDay(false);
 }
 }
 function highlightSelectedDay(){
@@ -134,12 +135,16 @@ function highlightCurrentDay(firstTime){
     }
 }
 function changeMonthAndYear(type){
+    
 
     let monthElement = document.querySelector("#current_month");
     let monthValue = monthElement.innerText;
 
     let yearElement = document.querySelector("#current_year");
     let yearValue = parseInt(yearElement.innerText);
+
+    if (type == 'previous' && monthValue.toLowerCase() == 'baishakh' && yearValue == 2000){return;}
+    if (type == 'next' && (monthValue.toLowerCase() == 'chaitra' && yearValue == 2089)){return;}
 
     if (type == 'previous'){
         if (monthValue.toLowerCase() == "baishakh"){
@@ -219,6 +224,7 @@ function displayDayInformation(TdElement){
     } else {
         currentSelectedTdElement.setAttribute("style", "border-radius: 50%;background-color:orange;line-height: 100%;text-align: center;");
 }
+    highlightCurrentDay(false);
 }
 
 window.onload = function (){
