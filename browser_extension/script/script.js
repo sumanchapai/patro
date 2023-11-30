@@ -134,7 +134,7 @@ function highlightCurrentDay(firstTime){
         console.log(error) ;
     }
 }
-function changeMonthAndYear(type){
+function changeMonthAndYear(type, button_selected = false){
     
 
     let monthElement = document.querySelector("#current_month");
@@ -163,8 +163,16 @@ function changeMonthAndYear(type){
         monthValue = monthsInEng[index+1];
         }
     
-    monthElement.innerText = monthValue;
-    yearElement.innerText = yearValue;
+    if (button_selected){
+        monthValue = indexToMonth[currentNepaliDate.getMonth()];
+        monthElement.innerText = monthValue;
+        yearValue = currentNepaliDate.getYear();
+        yearElement.innerText = yearValue;
+    }
+    else{
+        monthElement.innerText = monthValue;
+        yearElement.innerText = yearValue;
+    }
 
     if (currentDateTdElement != null)
     currentDateTdElement.setAttribute("style", "");
@@ -240,6 +248,13 @@ window.onload = function (){
 
     document.querySelector("#current_month").innerText = indexToMonth[monthValue];
     document.querySelector("#current_year").innerText = yearValue;
+
+    document.querySelector("#today_button").addEventListener("click", ()=>{
+        changeMonthAndYear(null, true);
+        let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
+        currentSelectedTdElement = currentDateTdElement;
+        currentSelectedTdElementID = currentDateTdElement.id;
+        })
 
     createTrValues();
     showCalendar(monthValue, yearValue, true);
