@@ -20,14 +20,14 @@
         }
         },
         "previous_month":{
-            "suggested_key": {"default": "Ctrl+J",
-                                "mac":"MacCtrl+J"
+            "suggested_key": {"default": "Ctrl+H",
+                                "mac":"MacCtrl+H"
         },
             "description": "Go to previous month in popup calendar"
         },
         "next_month":{
-            "suggested_key": {"default": "Ctrl+K",
-                                "mac":"MacCtrl+K"
+            "suggested_key": {"default": "Ctrl+L",
+                                "mac":"MacCtrl+L"
         },
             "description": "Go to next month in popup calendar"
         },

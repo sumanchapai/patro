@@ -5,14 +5,14 @@ chrome.commands.onCommand.addListener(
     (command)=>{
         if (popupOpened && commandEnabled){
             if (command == 'previous_month'){
-                // TO DO
-                console.log('previous month command to execute');
+                // Execute command to show previous month
+                chrome.runtime.sendMessage({'command' : command})
             } else if (command == 'next_month'){
-                // TO DO
-                console.log('next month command to execute');
+                // Execute command to show next month
+                chrome.runtime.sendMessage({'command' : command})
             } else if (command == 'today'){
-                // TO DO
-                console.log('today command to be executed');
+                // Execute command to show current day, month, year
+                chrome.runtime.sendMessage({'command' : command})
             }
         }
     }
@@ -21,11 +21,11 @@ chrome.commands.onCommand.addListener(
 chrome.runtime.onConnect.addListener(
     (port)=>{
         if (port.name == 'popup'){
+            // popup has been opened
             popupOpened = true;
-            console.log("popup has been opened")
             port.onDisconnect.addListener(()=>{
                 popupOpened = false;
-                console.log("popup has been closed")
+                // popup has been closed
             })
         }
     }

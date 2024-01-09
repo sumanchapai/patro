@@ -1,6 +1,17 @@
 // Connect to background.js
 chrome.runtime.connect({name:"popup"});
 
+// Connect commands from background.js with the listener
+chrome.runtime.onMessage.addListener((message)=>{
+    if (message.command == 'previous_month'){
+        changeMonthAndYear("previous");
+    } else if (message.command == 'next_month'){
+        changeMonthAndYear("next");
+    } else if (message.command == 'today'){
+        show_today();
+    }
+})
+
 var monthsInEng = ["baishakh", "jestha", "asar", "shrawan",
         "bhadau", "aswin", "kartik", "mansir", 
         "poush", "magh", "falgun", "chaitra"];
@@ -244,6 +255,17 @@ function displayDayInformation(TdElement){
     highlightCurrentDay(false);
 }
 
+function show_today(){
+        changeMonthAndYear(null, true);
+        removeHighlightedDay();
+        let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
+        currentSelectedTdElement = currentDateTdElement;
+        currentSelectedTdElementID = currentDateTdElement.id;
+        // The argument first time is passed as true as
+        // we also want to display the current days info
+        // just like we would when someone opens the extension
+        highlightCurrentDay(true);
+}
 window.onload = function (){
 
     populateWeekdays(document.querySelector("thead"),weekNamesArray);
@@ -259,15 +281,7 @@ window.onload = function (){
     document.querySelector("#current_year").innerText = yearValue;
 
     document.querySelector("#today_button").addEventListener("click", ()=>{
-        changeMonthAndYear(null, true);
-        removeHighlightedDay();
-        let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
-        currentSelectedTdElement = currentDateTdElement;
-        currentSelectedTdElementID = currentDateTdElement.id;
-        // The argument first time is passed as true as
-        // we also want to display the current days info
-        // just like we would when someone opens the extension
-        highlightCurrentDay(true);
+            show_today();
         })
 
     createTrValues();
