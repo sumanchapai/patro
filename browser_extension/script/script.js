@@ -1,3 +1,6 @@
+// Connect to background.js
+chrome.runtime.connect({name:"popup"});
+
 var monthsInEng = ["baishakh", "jestha", "asar", "shrawan",
         "bhadau", "aswin", "kartik", "mansir", 
         "poush", "magh", "falgun", "chaitra"];
