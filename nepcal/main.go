@@ -6,8 +6,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/fatih/color"
 	"github.com/opensource-nepal/go-nepali/dateConverter"
 )
+
+var todayColor = color.New(color.FgBlack).Add(color.BgGreen)
 
 func main() {
 	// Get args without program
@@ -39,6 +42,7 @@ func nepaliMonthName(number int) (string, error) {
 // For example, to display the calendar for 2056 Karthik, you would call this
 // function with params: 2056, 7
 func DisplayMonthCalendar(year, month int) {
+	todayAd := today()
 	englishDate, err := dateConverter.NepaliToEnglish(year, month, 1)
 	if err != nil {
 		errExit(err)
@@ -51,15 +55,22 @@ func DisplayMonthCalendar(year, month int) {
 	}
 	fmt.Println("Su Mo Tu We Th Fr Sa")
 	calendarDay := 1
+	var isToday bool
 	for {
+		isToday = (todayAd.Year() == ad.Year() && todayAd.Month() == ad.Month() && todayAd.Day() == ad.Day())
+		text := fmt.Sprintf("%2d", calendarDay)
+		if isToday {
+			text = todayColor.Sprint(text)
+		}
 		if ad.Weekday() == time.Sunday {
-			fmt.Printf("%2d", calendarDay)
+			fmt.Printf("%v", text)
 		} else if calendarDay == 1 {
 			// Add appropriate padding to align to the weekday
-			padding := 2 + ad.Weekday()*3
-			fmt.Printf("%[1]*d", padding, calendarDay)
+			padding := ad.Weekday() * 3
+			emptySpace := fmt.Sprintf("%[1]*s", padding, " ")
+			fmt.Printf("%s%s", emptySpace, text)
 		} else {
-			fmt.Printf("%3d", calendarDay)
+			fmt.Printf(" %v", text)
 		}
 		// Format appropriately based on the day of the week
 		if ad.Weekday() == time.Saturday {
