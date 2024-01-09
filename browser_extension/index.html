@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+    <title>Patro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="script/nepali_date/nepali_date.js"></script>
+</head>
+<body>
+    <div class="container">
+
+    <div class="alert alert-light text-center">
+        <span class="display text-center" id="event"></span>
+        <br />
+        <span id = "all_display">
+            <span class="display"id="month_display"></span>
+            <span class="display" id="nep"></span>
+            <span class="display" id="year_display"></span>
+        </span>
+        <br />
+
+        <span class="display" id="nep_date"></span>
+        <span class="display" id="eng_date"></span>
+
+        <span class="display" id="tithi"></span>
+        <span class="display" id="nep_weekday"></span>
+    </div>
+
+
+    <button class="btn btn-outline-secondary" id="today_button" style="margin: 6px auto;display: block;margin-top: -7px;">Today's date</button>
+    <div class="container" style="justify-content: center;">
+
+        <div class="month">
+        <ul>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <li><span id="current_month">Baishakh</span><br><span id="current_year" style="font-size:18px">2080</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+    <table class="table table-bordered" style="margin-bottom: 5px;">
+        <thead>
+        <!--will populate later-->
+        </thead>
+        <tbody>
+        <!-- populate current calendar based on month and year selected -->
+        </tbody>
+    </table>
+    </div>
+    
+</body>
+<script src="script/script.js"></script>
+</html>

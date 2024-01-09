@@ -1,0 +1,3812 @@
+{
+  "months": {
+    "Baishakh": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-1-1",
+          "eng_date": "1954-4-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-1-2",
+          "eng_date": "1954-4-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-3",
+          "eng_date": "1954-4-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-1-4",
+          "eng_date": "1954-4-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-5",
+          "eng_date": "1954-4-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-1-6",
+          "eng_date": "1954-4-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-1-7",
+          "eng_date": "1954-4-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-1-8",
+          "eng_date": "1954-4-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-1-9",
+          "eng_date": "1954-4-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-10",
+          "eng_date": "1954-4-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-1-11",
+          "eng_date": "1954-4-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-12",
+          "eng_date": "1954-4-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-1-13",
+          "eng_date": "1954-4-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-1-14",
+          "eng_date": "1954-4-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-1-15",
+          "eng_date": "1954-4-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-1-16",
+          "eng_date": "1954-4-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-17",
+          "eng_date": "1954-4-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-1-18",
+          "eng_date": "1954-4-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-19",
+          "eng_date": "1954-5-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-1-20",
+          "eng_date": "1954-5-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-1-21",
+          "eng_date": "1954-5-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-1-22",
+          "eng_date": "1954-5-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-1-23",
+          "eng_date": "1954-5-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-24",
+          "eng_date": "1954-5-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-1-25",
+          "eng_date": "1954-5-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-26",
+          "eng_date": "1954-5-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-1-27",
+          "eng_date": "1954-5-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-1-28",
+          "eng_date": "1954-5-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-1-29",
+          "eng_date": "1954-5-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-1-30",
+          "eng_date": "1954-5-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-1-31",
+          "eng_date": "1954-5-13"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u0935\u0948\u0936\u093e\u0916",
+      "eng_months": "Apr/May",
+      "eng_years": "1954",
+      "first_day_AD": "1954-4-13",
+      "last_day_AD": "1954-5-13",
+      "first_day_BS": "2011-1-1",
+      "last_day_BS": "2011-1-31"
+    },
+    "Jestha": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-2-1",
+          "eng_date": "1954-5-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-2",
+          "eng_date": "1954-5-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-2-3",
+          "eng_date": "1954-5-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-2-4",
+          "eng_date": "1954-5-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-2-5",
+          "eng_date": "1954-5-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-2-6",
+          "eng_date": "1954-5-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-7",
+          "eng_date": "1954-5-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-2-8",
+          "eng_date": "1954-5-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-9",
+          "eng_date": "1954-5-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-2-10",
+          "eng_date": "1954-5-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-2-11",
+          "eng_date": "1954-5-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-2-12",
+          "eng_date": "1954-5-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-2-13",
+          "eng_date": "1954-5-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-14",
+          "eng_date": "1954-5-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-2-15",
+          "eng_date": "1954-5-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-16",
+          "eng_date": "1954-5-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-2-17",
+          "eng_date": "1954-5-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-2-18",
+          "eng_date": "1954-5-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-2-19",
+          "eng_date": "1954-6-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-2-20",
+          "eng_date": "1954-6-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-21",
+          "eng_date": "1954-6-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-2-22",
+          "eng_date": "1954-6-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-23",
+          "eng_date": "1954-6-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-2-24",
+          "eng_date": "1954-6-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-2-25",
+          "eng_date": "1954-6-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-2-26",
+          "eng_date": "1954-6-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-2-27",
+          "eng_date": "1954-6-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-28",
+          "eng_date": "1954-6-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-2-29",
+          "eng_date": "1954-6-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-2-30",
+          "eng_date": "1954-6-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-2-31",
+          "eng_date": "1954-6-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0968",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-2-32",
+          "eng_date": "1954-6-14"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u091c\u0947\u0920",
+      "eng_months": "May/Jun",
+      "eng_years": "1954",
+      "first_day_AD": "1954-5-14",
+      "last_day_AD": "1954-6-14",
+      "first_day_BS": "2011-2-1",
+      "last_day_BS": "2011-2-32"
+    },
+    "Asar": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-3-1",
+          "eng_date": "1954-6-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-3-2",
+          "eng_date": "1954-6-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-3",
+          "eng_date": "1954-6-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-3-4",
+          "eng_date": "1954-6-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-5",
+          "eng_date": "1954-6-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-3-6",
+          "eng_date": "1954-6-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-3-7",
+          "eng_date": "1954-6-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-3-8",
+          "eng_date": "1954-6-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-3-9",
+          "eng_date": "1954-6-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-10",
+          "eng_date": "1954-6-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-3-11",
+          "eng_date": "1954-6-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-12",
+          "eng_date": "1954-6-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-3-13",
+          "eng_date": "1954-6-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-3-14",
+          "eng_date": "1954-6-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-3-15",
+          "eng_date": "1954-6-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-3-16",
+          "eng_date": "1954-6-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-17",
+          "eng_date": "1954-7-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-3-18",
+          "eng_date": "1954-7-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-19",
+          "eng_date": "1954-7-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-3-20",
+          "eng_date": "1954-7-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-3-21",
+          "eng_date": "1954-7-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-3-22",
+          "eng_date": "1954-7-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-3-23",
+          "eng_date": "1954-7-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-24",
+          "eng_date": "1954-7-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-3-25",
+          "eng_date": "1954-7-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-26",
+          "eng_date": "1954-7-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-3-27",
+          "eng_date": "1954-7-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-3-28",
+          "eng_date": "1954-7-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-3-29",
+          "eng_date": "1954-7-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-3-30",
+          "eng_date": "1954-7-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-3-31",
+          "eng_date": "1954-7-15"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u0905\u0938\u093e\u0930",
+      "eng_months": "Jun/Jul",
+      "eng_years": "1954",
+      "first_day_AD": "1954-6-15",
+      "last_day_AD": "1954-7-15",
+      "first_day_BS": "2011-3-1",
+      "last_day_BS": "2011-3-31"
+    },
+    "Shrawan": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-4-1",
+          "eng_date": "1954-7-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-2",
+          "eng_date": "1954-7-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-4-3",
+          "eng_date": "1954-7-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-4-4",
+          "eng_date": "1954-7-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-4-5",
+          "eng_date": "1954-7-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-4-6",
+          "eng_date": "1954-7-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-7",
+          "eng_date": "1954-7-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-4-8",
+          "eng_date": "1954-7-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-9",
+          "eng_date": "1954-7-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-4-10",
+          "eng_date": "1954-7-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-4-11",
+          "eng_date": "1954-7-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-4-12",
+          "eng_date": "1954-7-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-4-13",
+          "eng_date": "1954-7-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-14",
+          "eng_date": "1954-7-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-4-15",
+          "eng_date": "1954-7-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-16",
+          "eng_date": "1954-7-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-4-17",
+          "eng_date": "1954-8-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-4-18",
+          "eng_date": "1954-8-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-4-19",
+          "eng_date": "1954-8-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-4-20",
+          "eng_date": "1954-8-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-21",
+          "eng_date": "1954-8-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-4-22",
+          "eng_date": "1954-8-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-23",
+          "eng_date": "1954-8-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-4-24",
+          "eng_date": "1954-8-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-4-25",
+          "eng_date": "1954-8-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-4-26",
+          "eng_date": "1954-8-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-4-27",
+          "eng_date": "1954-8-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-28",
+          "eng_date": "1954-8-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-4-29",
+          "eng_date": "1954-8-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-4-30",
+          "eng_date": "1954-8-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-4-31",
+          "eng_date": "1954-8-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0968",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-4-32",
+          "eng_date": "1954-8-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u0938\u093e\u0909\u0928",
+      "eng_months": "Jul/Aug",
+      "eng_years": "1954",
+      "first_day_AD": "1954-7-16",
+      "last_day_AD": "1954-8-16",
+      "first_day_BS": "2011-4-1",
+      "last_day_BS": "2011-4-32"
+    },
+    "Bhadau": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-5-1",
+          "eng_date": "1954-8-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-5-2",
+          "eng_date": "1954-8-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-3",
+          "eng_date": "1954-8-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-5-4",
+          "eng_date": "1954-8-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-5",
+          "eng_date": "1954-8-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-5-6",
+          "eng_date": "1954-8-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-5-7",
+          "eng_date": "1954-8-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-5-8",
+          "eng_date": "1954-8-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-5-9",
+          "eng_date": "1954-8-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-10",
+          "eng_date": "1954-8-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-5-11",
+          "eng_date": "1954-8-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-12",
+          "eng_date": "1954-8-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-5-13",
+          "eng_date": "1954-8-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-5-14",
+          "eng_date": "1954-8-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-5-15",
+          "eng_date": "1954-8-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-5-16",
+          "eng_date": "1954-9-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-17",
+          "eng_date": "1954-9-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-5-18",
+          "eng_date": "1954-9-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-19",
+          "eng_date": "1954-9-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-5-20",
+          "eng_date": "1954-9-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-5-21",
+          "eng_date": "1954-9-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-5-22",
+          "eng_date": "1954-9-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-5-23",
+          "eng_date": "1954-9-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-24",
+          "eng_date": "1954-9-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-5-25",
+          "eng_date": "1954-9-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-26",
+          "eng_date": "1954-9-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-5-27",
+          "eng_date": "1954-9-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-5-28",
+          "eng_date": "1954-9-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-5-29",
+          "eng_date": "1954-9-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-5-30",
+          "eng_date": "1954-9-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-5-31",
+          "eng_date": "1954-9-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u092d\u0926\u094c",
+      "eng_months": "Aug/Sep",
+      "eng_years": "1954",
+      "first_day_AD": "1954-8-17",
+      "last_day_AD": "1954-9-16",
+      "first_day_BS": "2011-5-1",
+      "last_day_BS": "2011-5-31"
+    },
+    "Aswin": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-6-1",
+          "eng_date": "1954-9-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-2",
+          "eng_date": "1954-9-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-6-3",
+          "eng_date": "1954-9-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-6-4",
+          "eng_date": "1954-9-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-6-5",
+          "eng_date": "1954-9-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-6-6",
+          "eng_date": "1954-9-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-7",
+          "eng_date": "1954-9-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-6-8",
+          "eng_date": "1954-9-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-9",
+          "eng_date": "1954-9-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-6-10",
+          "eng_date": "1954-9-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-6-11",
+          "eng_date": "1954-9-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-6-12",
+          "eng_date": "1954-9-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-6-13",
+          "eng_date": "1954-9-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-14",
+          "eng_date": "1954-9-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-6-15",
+          "eng_date": "1954-10-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-16",
+          "eng_date": "1954-10-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-6-17",
+          "eng_date": "1954-10-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-6-18",
+          "eng_date": "1954-10-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-6-19",
+          "eng_date": "1954-10-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-6-20",
+          "eng_date": "1954-10-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-21",
+          "eng_date": "1954-10-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-6-22",
+          "eng_date": "1954-10-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-23",
+          "eng_date": "1954-10-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-6-24",
+          "eng_date": "1954-10-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-6-25",
+          "eng_date": "1954-10-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-6-26",
+          "eng_date": "1954-10-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-6-27",
+          "eng_date": "1954-10-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-28",
+          "eng_date": "1954-10-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-6-29",
+          "eng_date": "1954-10-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-6-30",
+          "eng_date": "1954-10-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u0905\u0938\u094b\u091c",
+      "eng_months": "Sep/Oct",
+      "eng_years": "1954",
+      "first_day_AD": "1954-9-17",
+      "last_day_AD": "1954-10-16",
+      "first_day_BS": "2011-6-1",
+      "last_day_BS": "2011-6-30"
+    },
+    "Kartik": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-7-1",
+          "eng_date": "1954-10-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-7-2",
+          "eng_date": "1954-10-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-7-3",
+          "eng_date": "1954-10-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-7-4",
+          "eng_date": "1954-10-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-5",
+          "eng_date": "1954-10-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-7-6",
+          "eng_date": "1954-10-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-7",
+          "eng_date": "1954-10-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-7-8",
+          "eng_date": "1954-10-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-7-9",
+          "eng_date": "1954-10-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-7-10",
+          "eng_date": "1954-10-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-7-11",
+          "eng_date": "1954-10-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-12",
+          "eng_date": "1954-10-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-7-13",
+          "eng_date": "1954-10-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-14",
+          "eng_date": "1954-10-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-7-15",
+          "eng_date": "1954-10-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-7-16",
+          "eng_date": "1954-11-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-7-17",
+          "eng_date": "1954-11-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-7-18",
+          "eng_date": "1954-11-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-19",
+          "eng_date": "1954-11-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-7-20",
+          "eng_date": "1954-11-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-21",
+          "eng_date": "1954-11-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-7-22",
+          "eng_date": "1954-11-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-7-23",
+          "eng_date": "1954-11-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-7-24",
+          "eng_date": "1954-11-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-7-25",
+          "eng_date": "1954-11-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-26",
+          "eng_date": "1954-11-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-7-27",
+          "eng_date": "1954-11-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-7-28",
+          "eng_date": "1954-11-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-7-29",
+          "eng_date": "1954-11-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-7-30",
+          "eng_date": "1954-11-15"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u0915\u093e\u0930\u094d\u0924\u093f\u0915",
+      "eng_months": "Oct/Nov",
+      "eng_years": "1954",
+      "first_day_AD": "1954-10-17",
+      "last_day_AD": "1954-11-15",
+      "first_day_BS": "2011-7-1",
+      "last_day_BS": "2011-7-30"
+    },
+    "Mansir": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-8-1",
+          "eng_date": "1954-11-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-8-2",
+          "eng_date": "1954-11-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-3",
+          "eng_date": "1954-11-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-8-4",
+          "eng_date": "1954-11-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-5",
+          "eng_date": "1954-11-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-8-6",
+          "eng_date": "1954-11-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-8-7",
+          "eng_date": "1954-11-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-8-8",
+          "eng_date": "1954-11-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-8-9",
+          "eng_date": "1954-11-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-10",
+          "eng_date": "1954-11-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-8-11",
+          "eng_date": "1954-11-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-12",
+          "eng_date": "1954-11-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-8-13",
+          "eng_date": "1954-11-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-8-14",
+          "eng_date": "1954-11-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-8-15",
+          "eng_date": "1954-11-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-8-16",
+          "eng_date": "1954-12-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-17",
+          "eng_date": "1954-12-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-8-18",
+          "eng_date": "1954-12-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-19",
+          "eng_date": "1954-12-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-8-20",
+          "eng_date": "1954-12-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-8-21",
+          "eng_date": "1954-12-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-8-22",
+          "eng_date": "1954-12-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-8-23",
+          "eng_date": "1954-12-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-24",
+          "eng_date": "1954-12-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-8-25",
+          "eng_date": "1954-12-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-8-26",
+          "eng_date": "1954-12-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-8-27",
+          "eng_date": "1954-12-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-8-28",
+          "eng_date": "1954-12-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-8-29",
+          "eng_date": "1954-12-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-8-30",
+          "eng_date": "1954-12-15"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u092e\u0902\u0938\u093f\u0930",
+      "eng_months": "Nov/Dec",
+      "eng_years": "1954",
+      "first_day_AD": "1954-11-16",
+      "last_day_AD": "1954-12-15",
+      "first_day_BS": "2011-8-1",
+      "last_day_BS": "2011-8-30"
+    },
+    "Poush": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-1",
+          "eng_date": "1954-12-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-9-2",
+          "eng_date": "1954-12-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-3",
+          "eng_date": "1954-12-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-9-4",
+          "eng_date": "1954-12-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-9-5",
+          "eng_date": "1954-12-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-9-6",
+          "eng_date": "1954-12-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-9-7",
+          "eng_date": "1954-12-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-8",
+          "eng_date": "1954-12-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-9-9",
+          "eng_date": "1954-12-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-10",
+          "eng_date": "1954-12-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-9-11",
+          "eng_date": "1954-12-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-9-12",
+          "eng_date": "1954-12-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-9-13",
+          "eng_date": "1954-12-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-9-14",
+          "eng_date": "1954-12-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-15",
+          "eng_date": "1954-12-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-9-16",
+          "eng_date": "1954-12-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-17",
+          "eng_date": "1955-1-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-9-18",
+          "eng_date": "1955-1-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-9-19",
+          "eng_date": "1955-1-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-9-20",
+          "eng_date": "1955-1-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-9-21",
+          "eng_date": "1955-1-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-22",
+          "eng_date": "1955-1-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-9-23",
+          "eng_date": "1955-1-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-24",
+          "eng_date": "1955-1-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-9-25",
+          "eng_date": "1955-1-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-9-26",
+          "eng_date": "1955-1-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-9-27",
+          "eng_date": "1955-1-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-9-28",
+          "eng_date": "1955-1-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-9-29",
+          "eng_date": "1955-1-13"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u092a\u0941\u0937",
+      "eng_months": "Dec/Jan",
+      "eng_years": "1954-1955",
+      "first_day_AD": "1954-12-16",
+      "last_day_AD": "1955-1-13",
+      "first_day_BS": "2011-9-1",
+      "last_day_BS": "2011-9-29"
+    },
+    "Magh": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-10-1",
+          "eng_date": "1955-1-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-2",
+          "eng_date": "1955-1-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-10-3",
+          "eng_date": "1955-1-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-10-4",
+          "eng_date": "1955-1-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-10-5",
+          "eng_date": "1955-1-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-10-6",
+          "eng_date": "1955-1-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-7",
+          "eng_date": "1955-1-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-10-8",
+          "eng_date": "1955-1-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-9",
+          "eng_date": "1955-1-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-10-10",
+          "eng_date": "1955-1-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-10-11",
+          "eng_date": "1955-1-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-10-12",
+          "eng_date": "1955-1-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-10-13",
+          "eng_date": "1955-1-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-14",
+          "eng_date": "1955-1-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-10-15",
+          "eng_date": "1955-1-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-16",
+          "eng_date": "1955-1-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-10-17",
+          "eng_date": "1955-1-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-10-18",
+          "eng_date": "1955-1-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-10-19",
+          "eng_date": "1955-2-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-10-20",
+          "eng_date": "1955-2-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-21",
+          "eng_date": "1955-2-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-10-22",
+          "eng_date": "1955-2-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-23",
+          "eng_date": "1955-2-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-10-24",
+          "eng_date": "1955-2-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-10-25",
+          "eng_date": "1955-2-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-10-26",
+          "eng_date": "1955-2-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-10-27",
+          "eng_date": "1955-2-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-10-28",
+          "eng_date": "1955-2-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-10-29",
+          "eng_date": "1955-2-11"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u092e\u093e\u0918",
+      "eng_months": "Jan/Feb",
+      "eng_years": "1955",
+      "first_day_AD": "1955-1-14",
+      "last_day_AD": "1955-2-11",
+      "first_day_BS": "2011-10-1",
+      "last_day_BS": "2011-10-29"
+    },
+    "Falgun": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-1",
+          "eng_date": "1955-2-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-11-2",
+          "eng_date": "1955-2-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-11-3",
+          "eng_date": "1955-2-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-11-4",
+          "eng_date": "1955-2-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-11-5",
+          "eng_date": "1955-2-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-6",
+          "eng_date": "1955-2-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-11-7",
+          "eng_date": "1955-2-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-8",
+          "eng_date": "1955-2-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-11-9",
+          "eng_date": "1955-2-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-11-10",
+          "eng_date": "1955-2-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-11-11",
+          "eng_date": "1955-2-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-11-12",
+          "eng_date": "1955-2-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-13",
+          "eng_date": "1955-2-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-11-14",
+          "eng_date": "1955-2-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-15",
+          "eng_date": "1955-2-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-11-16",
+          "eng_date": "1955-2-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-11-17",
+          "eng_date": "1955-2-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-11-18",
+          "eng_date": "1955-3-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-11-19",
+          "eng_date": "1955-3-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-20",
+          "eng_date": "1955-3-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-11-21",
+          "eng_date": "1955-3-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-22",
+          "eng_date": "1955-3-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-11-23",
+          "eng_date": "1955-3-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-11-24",
+          "eng_date": "1955-3-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-11-25",
+          "eng_date": "1955-3-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-11-26",
+          "eng_date": "1955-3-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-27",
+          "eng_date": "1955-3-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-11-28",
+          "eng_date": "1955-3-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-11-29",
+          "eng_date": "1955-3-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-11-30",
+          "eng_date": "1955-3-13"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u092b\u093e\u0917\u0941\u0928",
+      "eng_months": "Feb/Mar",
+      "eng_years": "1955",
+      "first_day_AD": "1955-2-12",
+      "last_day_AD": "1955-3-13",
+      "first_day_BS": "2011-11-1",
+      "last_day_BS": "2011-11-30"
+    },
+    "Chaitra": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-12-1",
+          "eng_date": "1955-3-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-12-2",
+          "eng_date": "1955-3-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-12-3",
+          "eng_date": "1955-3-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-4",
+          "eng_date": "1955-3-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-12-5",
+          "eng_date": "1955-3-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-6",
+          "eng_date": "1955-3-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-12-7",
+          "eng_date": "1955-3-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-12-8",
+          "eng_date": "1955-3-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-12-9",
+          "eng_date": "1955-3-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-12-10",
+          "eng_date": "1955-3-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-11",
+          "eng_date": "1955-3-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-12-12",
+          "eng_date": "1955-3-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-13",
+          "eng_date": "1955-3-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-12-14",
+          "eng_date": "1955-3-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-12-15",
+          "eng_date": "1955-3-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-12-16",
+          "eng_date": "1955-3-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-12-17",
+          "eng_date": "1955-3-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-18",
+          "eng_date": "1955-3-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-12-19",
+          "eng_date": "1955-4-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-20",
+          "eng_date": "1955-4-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-12-21",
+          "eng_date": "1955-4-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-12-22",
+          "eng_date": "1955-4-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-12-23",
+          "eng_date": "1955-4-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-12-24",
+          "eng_date": "1955-4-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-25",
+          "eng_date": "1955-4-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2011-12-26",
+          "eng_date": "1955-4-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2011-12-27",
+          "eng_date": "1955-4-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2011-12-28",
+          "eng_date": "1955-4-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2011-12-29",
+          "eng_date": "1955-4-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2011-12-30",
+          "eng_date": "1955-4-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2011-12-31",
+          "eng_date": "1955-4-13"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u0967\u0967",
+      "nep_name": "\u091a\u0948\u0924",
+      "eng_months": "Mar/Apr",
+      "eng_years": "1955",
+      "first_day_AD": "1955-3-14",
+      "last_day_AD": "1955-4-13",
+      "first_day_BS": "2011-12-1",
+      "last_day_BS": "2011-12-31"
+    }
+  },
+  "year": 2011,
+  "meta": {
+    "year_format": "YYYY-MM-DD"
+  }
+}

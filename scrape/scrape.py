@@ -95,7 +95,7 @@ def parse_html(html: bytes, current_month: int,
         english_data: str = li_tag["id"]
 
         # skip over id's 0
-        if english_data != "0":
+        if english_data != "0" and english_data != '--':
 
             day_dict: Dict[str, str] = {}
             month_list.append(day_dict)
@@ -103,7 +103,10 @@ def parse_html(html: bytes, current_month: int,
             day_dict["event"]: str = li_tag.find(class_="event").text
             day_dict["nep"]: str = li_tag.find(class_="nep").text
             day_dict["eng"]: str = li_tag.find(class_="eng").text
-            day_dict["tithi"]: str = li_tag.find(class_="tithi").text
+            try:
+                day_dict["tithi"]: str = li_tag.find(class_="tithi").text
+            except AttributeError:
+                day_dict["tithi"]: str = ""
 
             eng_year, month, day = map(int, english_data.split("-"))
 
@@ -114,7 +117,8 @@ def parse_html(html: bytes, current_month: int,
                 day.weekday()][1]
 
             day_dict[
-                "nep_date"]: str = f"{nep_year}-{current_month}-{current_nepali_day}"
+                "nep_date"]: str = \
+                    f"{nep_year}-{current_month}-{current_nepali_day}"
             day_dict["eng_date"]: str = english_data
 
             current_nepali_day += 1

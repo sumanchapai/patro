@@ -1,0 +1,10 @@
+.success {
+	color: green;
+}
+
+.failure {
+	color: red;
+}
+
+.success::before { content: '✔ '; }
+.failure::before { content: '✘ '; }
