@@ -159,7 +159,7 @@ func validateArgs(args []string) []CalMonth {
 		}
 		year, err := strconv.ParseInt(args[0], 10, 32)
 		if err != nil {
-			errExit(err)
+			errHelpExit(err)
 		}
 		calMonths := make([]CalMonth, 0)
 		for month := 1; month <= 12; month++ {
