@@ -10,6 +10,19 @@ import (
 	"github.com/opensource-nepal/go-nepali/dateConverter"
 )
 
+const HelpMsg = `# Display the current month calendar
+patro
+
+# Display the calendar for the previous, current, and next month
+patro -3
+
+# Display the calendar for a given year, example patro 2080
+patro <year>
+
+# Display the calendar of a specific month of a specific year, example patro 7 2080 
+# Note that it's not patro 7 2080 to follow the convention of the cal command
+patro <month> <year>`
+
 var todayColor = color.New(color.FgBlack).Add(color.BgGreen)
 
 func main() {
@@ -26,6 +39,13 @@ func main() {
 
 func errExit(msg interface{}) {
 	fmt.Println(msg)
+	os.Exit(1)
+}
+
+func errHelpExit(msg interface{}) {
+	fmt.Println(msg)
+	fmt.Printf("%s\n\n", "Use as follows:")
+	fmt.Println(HelpMsg)
 	os.Exit(1)
 }
 
@@ -154,18 +174,18 @@ func validateArgs(args []string) []CalMonth {
 		// nepcal month year
 		month, err := strconv.ParseInt(args[0], 10, 32)
 		if err != nil {
-			errExit(err)
+			errHelpExit(err)
 		}
 		year, err := strconv.ParseInt(args[1], 10, 32)
 		if err != nil {
-			errExit(err)
+			errHelpExit(err)
 		}
 		if month < 1 || month > 12 {
-			errExit("Invalid month. Expected between 0 and 12")
+			errHelpExit("Invalid month. Expected between 0 and 12")
 		}
 		return []CalMonth{{year: int(year), month: int(month)}}
 	default:
-		errExit("Maximum number of valid args is 2")
+		errHelpExit("Maximum number of valid args is 2")
 	}
 	return nil
 }
