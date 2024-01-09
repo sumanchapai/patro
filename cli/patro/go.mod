@@ -1,4 +1,4 @@
-module github.com/sumanchapai/patro
+module github.com/sumanchapai/patro/cli/patro
 
 go 1.21.1
 
