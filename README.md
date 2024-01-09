@@ -31,7 +31,7 @@ patro -3
 patro <year>
 
 # Display the calendar of a specific month of a specific year, example patro 7 2080 
-# Note that it's not patro 7 2080 to follow the convention of the cal command
+# Note that it's not patro <year> <month> to follow the convention of the cal command
 patro <month> <year>
 ```
 
