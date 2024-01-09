@@ -56,10 +56,10 @@ func errHelpExit(msg interface{}) {
 
 func nepaliMonthName(number int) (string, error) {
 	months := []string{
-		"Baisakh", "Jestha", "Asar",
-		"Shrawan", "Bhadra", "Ashoj",
-		"Kartik", "Mangsir", "Poush",
-		"Magh", "Falgun", "Chait",
+		"Baishakh", "Jestha", "Asar",
+		"Shrawan", "Bhadau", "Aswin",
+		"Kartik", "Mansir", "Poush",
+		"Magh", "Falgun", "Chaitra",
 	}
 	if number > 0 && number < 13 {
 		return months[number-1], nil
@@ -86,8 +86,15 @@ func DisplayMonthCalendar(year, month int) {
 	fmt.Println("Su Mo Tu We Th Fr Sa")
 	calendarDay := 1
 	var isToday bool
+	if err != nil {
+		errExit(err)
+	}
 	for {
 		isToday = (todayAd.Year() == ad.Year() && todayAd.Month() == ad.Month() && todayAd.Day() == ad.Day())
+		dayInfo, dayInfoErr := GetDayInfo(year, month, calendarDay)
+		if err != nil {
+			errExit(err)
+		}
 		text := fmt.Sprintf("%2d", calendarDay)
 		if isToday {
 			text = todayColor.Sprint(text)
@@ -102,9 +109,14 @@ func DisplayMonthCalendar(year, month int) {
 		} else {
 			fmt.Printf(" %v", text)
 		}
-		// Format appropriately based on the day of the week
+		// Display the tithi next to Saturday
 		if ad.Weekday() == time.Saturday {
-			fmt.Println()
+			// Only display the tithi if there isn't error getting the day info
+			if dayInfoErr == nil {
+				fmt.Printf("-%v\n", dayInfo.Tithi)
+			} else {
+				fmt.Println()
+			}
 		}
 		calendarDay++
 		// Add one day
