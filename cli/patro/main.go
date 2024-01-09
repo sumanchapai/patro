@@ -181,7 +181,7 @@ func validateArgs(args []string) []CalMonth {
 			errHelpExit(err)
 		}
 		if month < 1 || month > 12 {
-			errHelpExit("Invalid month. Expected between 0 and 12")
+			errHelpExit(fmt.Sprintf("Invalid month. Expected between 0 and 12 received %v", month))
 		}
 		return []CalMonth{{year: int(year), month: int(month)}}
 	default:
