@@ -3,6 +3,7 @@
     "description": "Minimalistic And Simple Nepali Calendar",
     "manifest_version": 3,
     "version": "1.1.1",
+    "background": {"service_worker": "script/background.js"},
     "icons": {
         "16": "images/16.png",
         "32": "images/32.png",
@@ -11,5 +12,31 @@
     },
     "action":{
         "default_popup": "index.html"
+    },
+    "commands":{
+        "_execute_action":{
+            "suggested_key": {"default": "Ctrl+P",
+                                "mac":"MacCtrl+P"
+        }
+        },
+        "previous_month":{
+            "suggested_key": {"default": "Ctrl+J",
+                                "mac":"MacCtrl+J"
+        },
+            "description": "Go to previous month in popup calendar"
+        },
+        "next_month":{
+            "suggested_key": {"default": "Ctrl+K",
+                                "mac":"MacCtrl+K"
+        },
+            "description": "Go to next month in popup calendar"
+        },
+        "today":{
+            "suggested_key": {"default": "Ctrl+T",
+                                "mac":"MacCtrl+T"
+        },
+            "description": "Show current day"
+        }
+
     }
 }
