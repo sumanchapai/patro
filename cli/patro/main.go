@@ -25,6 +25,11 @@ patro <month> <year>`
 
 var todayColor = color.New(color.FgBlack).Add(color.BgGreen)
 
+type CalMonth struct {
+	year  int
+	month int
+}
+
 func main() {
 	// Get args without program
 	args := os.Args[1:]
@@ -126,11 +131,6 @@ func displayMonthHeader(year, month int) {
 	fmt.Printf("%[1]*[2]v\n", -width, fmt.Sprintf("%[1]*s", (width+len(calendarTitle))/2, calendarTitle))
 }
 
-type CalMonth struct {
-	year  int
-	month int
-}
-
 // Get today's time in Nepal as time.Time object
 func today() time.Time {
 	tz, _ := time.LoadLocation("Asia/Kathmandu")
@@ -155,7 +155,7 @@ func validateArgs(args []string) []CalMonth {
 		return []CalMonth{currentCalMonth}
 	case 1:
 		if args[0] == "-3" {
-			return []CalMonth{previousCalMonth(currentCalMonth), currentCalMonth, nextCalMonth(currentCalMonth)}
+			return []CalMonth{PreviousCalMonth(currentCalMonth), currentCalMonth, NextCalMonth(currentCalMonth)}
 		}
 		year, err := strconv.ParseInt(args[0], 10, 32)
 		if err != nil {
@@ -190,14 +190,14 @@ func validateArgs(args []string) []CalMonth {
 	return nil
 }
 
-func previousCalMonth(current CalMonth) CalMonth {
+func PreviousCalMonth(current CalMonth) CalMonth {
 	if current.month == 1 {
 		return CalMonth{month: 12, year: current.year - 1}
 	}
 	return CalMonth{month: current.month - 1, year: current.year}
 }
 
-func nextCalMonth(current CalMonth) CalMonth {
+func NextCalMonth(current CalMonth) CalMonth {
 	if current.month == 12 {
 		return CalMonth{month: 1, year: current.year + 1}
 	}
