@@ -113,7 +113,7 @@ func DisplayMonthCalendar(year, month int) {
 		if ad.Weekday() == time.Saturday {
 			// Only display the tithi if there isn't error getting the day info
 			if dayInfoErr == nil {
-				fmt.Printf("-%v\n", dayInfo.Tithi)
+				fmt.Printf(" - %v\n", RomanTithi(dayInfo.Tithi))
 			} else {
 				fmt.Println()
 			}
