@@ -1,4 +1,4 @@
-module github.com/sumanchapai/patro/nepcal
+module github.com/sumanchapai/patro
 
 go 1.21.1
 
