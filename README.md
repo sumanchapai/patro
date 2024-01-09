@@ -11,3 +11,10 @@ You can get the Patro chrome extension at the chrome web store [here](https://ch
 <p align='center'>
 <img alt='Patro Chrome-extension' src="https://lh3.googleusercontent.com/fNbkcQY4EYpYh3prVBSccUbiuNxHAKpEssoWJj9OP6EZAtWtv95anq4CPuuBJpkNPB4dgN3uBLZ3D2cMg5zOk0w4kQs=s1280-w1280-h800">
 </p>
+
+## CLI
+Install the CLI by running 
+```bash
+go install github.com/sumanchapai/patro/nepcal@latest
+```
+
