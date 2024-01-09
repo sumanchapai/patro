@@ -30,7 +30,12 @@ func errExit(msg interface{}) {
 }
 
 func nepaliMonthName(number int) (string, error) {
-	months := []string{"Baisakh", "Jestha", "Asar", "Shrawan", "Bhadra", "Ashoj", "Kartik", "Mangsir", "Poush", "Falgun", "Chait"}
+	months := []string{
+		"Baisakh", "Jestha", "Asar",
+		"Shrawan", "Bhadra", "Ashoj",
+		"Kartik", "Mangsir", "Poush",
+		"Magh", "Falgun", "Chait",
+	}
 	if number > 0 && number < 13 {
 		return months[number-1], nil
 	} else {
@@ -136,17 +141,22 @@ func validateArgs(args []string) []CalMonth {
 		if err != nil {
 			errExit(err)
 		}
-		calMonths := make([]CalMonth, 12)
+		calMonths := make([]CalMonth, 0)
 		for month := 1; month <= 12; month++ {
 			calMonths = append(calMonths, CalMonth{year: int(year), month: month})
 		}
 		return calMonths
 	case 2:
-		year, err := strconv.ParseInt(args[0], 10, 32)
+		// Note that we'd ideally like to specify
+		// nepcal year month
+		// However, to follow the convention of the cal command
+		// one needs to say
+		// nepcal month year
+		month, err := strconv.ParseInt(args[0], 10, 32)
 		if err != nil {
 			errExit(err)
 		}
-		month, err := strconv.ParseInt(args[1], 10, 32)
+		year, err := strconv.ParseInt(args[1], 10, 32)
 		if err != nil {
 			errExit(err)
 		}
