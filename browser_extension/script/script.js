@@ -9,6 +9,10 @@ chrome.runtime.onMessage.addListener((message)=>{
         changeMonthAndYear("next");
     } else if (message.command == 'today'){
         show_today();
+    } else if (message.command == 'previous_day'){
+        show_previous_day();
+    } else if (message.command == 'next_day'){
+        show_next_day();
     }
 })
 
@@ -214,7 +218,7 @@ function populateWeekdays(element, arrayList){
 
 function createTrValues(){
     let tbody = document.querySelector("tbody");
-    for (let i=0; i < 5; i++){
+    for (let i=0; i < 6; i++){
         let trElement = document.createElement("tr");
         for (let i=0; i < 7; i++){
             let tdElement = document.createElement("td");
@@ -266,6 +270,48 @@ function show_today(){
         // just like we would when someone opens the extension
         highlightCurrentDay(true);
 }
+
+function show_next_day(){
+    // use the currentSelectedTdElementID to get currently selected date values
+    let selected_date_array = currentSelectedTdElementID.split('-');
+    let year = selected_date_array[0];
+    let monthIndex = selected_date_array[1] - 1;
+    let day = selected_date_array[2];
+
+    let nextDayValue = Number(day) + 1;
+    let nextYearValue = Number(year);
+    let nextMonthValue = Number(monthIndex);
+    // Check if the next day value is valid
+    // If nextDayValue day falls in the same month, then no problem
+    // else, it will be the first day of the next month
+    if (nextDayValue > ALL_YEARS_DATA[year]['months'][indexToMonth[monthIndex]]["days"].length){
+        // not possible to be in the same month
+        // increase monthvalue and set day to 1
+        nextDayValue = 1;
+        nextMonthValue++;
+        if (nextMonthValue > 11){
+            // the next day is the new year day
+            nextMonthValue = 0;
+            nextYearValue++;
+        }
+    }
+    
+    // simulate as if someone clicked that day
+    let elementID = `${nextYearValue}-${nextMonthValue+1}-${nextDayValue}`
+
+    if (nextDayValue != 1){
+    displayDayInformation(document.getElementById(elementID));
+    } else {
+    // But we need to change calendar month if needed
+    changeMonthAndYear('next');
+    displayDayInformation(document.getElementById(elementID));
+    }
+}
+
+function show_previous_day(){
+
+}
+
 window.onload = function (){
 
     populateWeekdays(document.querySelector("thead"),weekNamesArray);
