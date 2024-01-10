@@ -220,7 +220,7 @@ function populateWeekdays(element, arrayList){
 
 function createTrValues(){
     let tbody = document.querySelector("tbody");
-    for (let i=0; i < 6; i++){
+    for (let i=0; i < 5; i++){
         let trElement = document.createElement("tr");
         for (let i=0; i < 7; i++){
             let tdElement = document.createElement("td");

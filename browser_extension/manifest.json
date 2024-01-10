@@ -23,28 +23,28 @@
             "suggested_key": {"default": "Ctrl+H",
                                 "mac":"MacCtrl+H"
         },
-            "description": "Go to previous month in popup calendar"
+            "description": "View the previous month in calendar"
         },
         "next_month":{
             "suggested_key": {"default": "Ctrl+L",
                                 "mac":"MacCtrl+L"
         },
-            "description": "Go to next month in popup calendar"
+            "description": "View the next month in calendar"
         },
         "today":{
             "suggested_key": {"default": "Ctrl+T",
                                 "mac":"MacCtrl+T"
         },
-            "description": "Show current day"
+            "description": "Select the current day"
         },
         "previous_day":{
-            "description": "Go to previous day in popup calendar"
+            "description": "Select the previous day in calendar"
         },
         "next_day":{
-            "description": "Go to next day in popup calendar"
+            "description": "Select the next day in calendar"
         },
         "first_day_of_the_month":{
-            "description": "Go to the first day of the currently viewing month"
+            "description": "Select the first day of the currently viewing month"
         }
     }
 }
