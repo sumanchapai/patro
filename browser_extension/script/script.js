@@ -273,6 +273,7 @@ function show_today(){
 
 function show_next_day(){
     // use the currentSelectedTdElementID to get currently selected date values
+    
     let selected_date_array = currentSelectedTdElementID.split('-');
     let year = selected_date_array[0];
     let monthIndex = selected_date_array[1] - 1;
@@ -309,6 +310,40 @@ function show_next_day(){
 }
 
 function show_previous_day(){
+
+    let selected_date_array = currentSelectedTdElementID.split('-');
+    let year = selected_date_array[0];
+    let monthIndex = selected_date_array[1] - 1;
+    let day = selected_date_array[2];
+
+    let previousDayValue = Number(day) - 1;
+    let previousYearValue = Number(year);
+    let previousMonthValue = Number(monthIndex);
+
+    // Check if the previous day value is valid
+    // invalid if day value is 0
+    if (previousDayValue < 1){
+        // not possible to be in the same month
+        // decrease monthvalue and set day to last day of previous month
+        previousMonthValue--;
+        if (previousMonthValue < 0){
+            // the next day is the new year day
+            previousMonthValue = 11;
+            previousYearValue--;
+        }
+        previousDayValue = ALL_YEARS_DATA[previousYearValue]['months'][indexToMonth[previousMonthValue]]["days"].length;
+    }
+    
+    // simulate as if someone clicked that day
+    let elementID = `${previousYearValue}-${previousMonthValue+1}-${previousDayValue}`
+
+    if (monthIndex == previousMonthValue && year == previousYearValue){
+    displayDayInformation(document.getElementById(elementID));
+    } else {
+    // But we need to change calendar month if needed
+    changeMonthAndYear('previous');
+    displayDayInformation(document.getElementById(elementID));
+    }
 
 }
 
