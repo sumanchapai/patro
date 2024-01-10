@@ -2,7 +2,7 @@
     "name": "Patro",
     "description": "Minimalistic And Simple Nepali Calendar",
     "manifest_version": 3,
-    "version": "2.0.0",
+    "version": "1.2.1",
     "background": {"service_worker": "script/background.js"},
     "icons": {
         "16": "images/16.png",
@@ -38,11 +38,13 @@
             "description": "Show current day"
         },
         "previous_day":{
-         
             "description": "Go to previous day in popup calendar"
         },
         "next_day":{
             "description": "Go to next day in popup calendar"
+        },
+        "first_day_of_the_month":{
+            "description": "Go to the first day of the currently viewing month"
         }
     }
 }

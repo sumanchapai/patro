@@ -13,6 +13,8 @@ chrome.runtime.onMessage.addListener((message)=>{
         show_previous_day();
     } else if (message.command == 'next_day'){
         show_next_day();
+    } else if (message.command == 'first_day_of_the_month'){
+        show_first_day();
     }
 })
 
@@ -359,6 +361,16 @@ function show_previous_day(){
     displayDayInformation(document.getElementById(elementID));
     }
 
+}
+
+function show_first_day(){
+    let currentYearValue = Number(document.querySelector("#current_year").innerText);
+    let monthName = capitalizeString(document.querySelector("#current_month").innerText.toLowerCase());
+    let currentMonthIndex = monthToIndex[monthName];
+
+    let elementID = `${currentYearValue}-${currentMonthIndex+1}-${1}`
+    console.log(elementID);
+    displayDayInformation(document.getElementById(elementID));
 }
 
 window.onload = function (){
