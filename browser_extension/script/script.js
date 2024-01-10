@@ -271,13 +271,25 @@ function show_today(){
         highlightCurrentDay(true);
 }
 
+function change_calendar_to_required_month_and_year(year , monthIndex){
+
+    let monthElement = document.querySelector("#current_month");
+    let yearElement = document.querySelector("#current_year");
+    yearElement.innerText = year
+    monthElement.innerText = indexToMonth[monthIndex];
+    showCalendar(monthIndex, year);
+
+}
+
 function show_next_day(){
+
     // use the currentSelectedTdElementID to get currently selected date values
-    
     let selected_date_array = currentSelectedTdElementID.split('-');
     let year = selected_date_array[0];
     let monthIndex = selected_date_array[1] - 1;
     let day = selected_date_array[2];
+
+    change_calendar_to_required_month_and_year(year, monthIndex)
 
     let nextDayValue = Number(day) + 1;
     let nextYearValue = Number(year);
@@ -315,6 +327,8 @@ function show_previous_day(){
     let year = selected_date_array[0];
     let monthIndex = selected_date_array[1] - 1;
     let day = selected_date_array[2];
+
+    change_calendar_to_required_month_and_year(year, monthIndex)
 
     let previousDayValue = Number(day) - 1;
     let previousYearValue = Number(year);
