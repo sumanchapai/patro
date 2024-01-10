@@ -77,7 +77,15 @@ function resetTdValues(){
     }
 }
 
+function resetTrAttributes(){
+    let all_tr_elements = document.querySelectorAll("tbody>tr");
+    for (let tr_element of all_tr_elements){
+        tr_element.style.display = '';
+    }
+}
 function populateTrValues(monthValue){
+
+    resetTrAttributes();
     resetTdValues();
     let tbodyElement = document.querySelector("tbody");
     let allTdElements = tbodyElement.querySelectorAll("td");
@@ -104,6 +112,18 @@ function populateTrValues(monthValue){
         tdElement.setAttribute("id",allDays[currentDayIndex]["nep_date"]);
         currentDayIndex++;
         if (allDays.length == currentDayIndex){break;}
+    }
+
+    hide_tr_if_unoccupied();
+}
+
+function hide_tr_if_unoccupied(){
+
+    // CHeck if the last row is unoccupied, if it is unoccupied, hide it
+    let all_tr_elements = document.querySelectorAll("tbody>tr");
+    let last_tr_element = all_tr_elements[all_tr_elements.length - 1];
+    if (!last_tr_element.querySelector("td").hasAttribute("id")){
+        last_tr_element.style.display = 'none';
     }
 }
 
@@ -220,7 +240,7 @@ function populateWeekdays(element, arrayList){
 
 function createTrValues(){
     let tbody = document.querySelector("tbody");
-    for (let i=0; i < 5; i++){
+    for (let i=0; i < 6; i++){
         let trElement = document.createElement("tr");
         for (let i=0; i < 7; i++){
             let tdElement = document.createElement("td");
