@@ -1,5 +1,7 @@
 package main
 
+import "strings"
+
 var TithiUnicodeToRoman = map[string]string{
 	"\u092a\u094d\u0930\u0924\u093f\u092a\u0926\u093e": "Prathama", // Also called Prathama
 	"\u0926\u094d\u0935\u093f\u0924\u0940\u092f\u093e": "Dwitiya",
@@ -21,6 +23,10 @@ var TithiUnicodeToRoman = map[string]string{
 
 // Return roman for given unicode tithi if exists
 func RomanTithi(unicode string) string {
+	// This is a guard case against scenario where the tithi contains
+	// an asetrick. This is an issue during scraping the data from
+	// hamropatro. See issue #16 for details.
+	unicode = strings.TrimSuffix(unicode, "*")
 	if result, ok := TithiUnicodeToRoman[unicode]; ok {
 		return result
 	}
