@@ -108,6 +108,12 @@ async function showCalendar(monthValue, yearValue, firstTime = false){
         highlightCurrentDay(false);
 }
 }
+function removeHighlightedDay(){
+        currentSelectedTdElement.removeAttribute("style");
+        currentSelectedTdElement = null;
+        currentSelectedTdElementID = null;
+
+}
 function highlightSelectedDay(){
     if (currentSelectedTdElement){
         if (currentSelectedTdElementID != `${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`){
@@ -251,9 +257,14 @@ window.onload = function (){
 
     document.querySelector("#today_button").addEventListener("click", ()=>{
         changeMonthAndYear(null, true);
+        removeHighlightedDay();
         let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
         currentSelectedTdElement = currentDateTdElement;
         currentSelectedTdElementID = currentDateTdElement.id;
+        // The argument first time is passed as true as
+        // we also want to display the current days info
+        // just like we would when someone opens the extension
+        highlightCurrentDay(true);
         })
 
     createTrValues();
