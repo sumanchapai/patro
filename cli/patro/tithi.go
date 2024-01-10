@@ -3,7 +3,7 @@ package main
 import "strings"
 
 var TithiUnicodeToRoman = map[string]string{
-	"\u092a\u094d\u0930\u0924\u093f\u092a\u0926\u093e": "Prathama", // Also called Prathama
+	"\u092a\u094d\u0930\u0924\u093f\u092a\u0926\u093e": "Prathama", // Also called Pratipada
 	"\u0926\u094d\u0935\u093f\u0924\u0940\u092f\u093e": "Dwitiya",
 	"\u0924\u0943\u0924\u093f\u092f\u093e":             "Tritiya",
 	"\u091a\u0924\u0941\u0930\u094d\u0925\u0940":       "Chaturthi",
