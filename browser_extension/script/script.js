@@ -8,13 +8,13 @@ chrome.runtime.onMessage.addListener((message)=>{
     } else if (message.command == 'next_month'){
         changeMonthAndYear("next");
     } else if (message.command == 'today'){
-        show_today();
+        showToday();
     } else if (message.command == 'previous_day'){
-        show_previous_day();
+        showPreviousDay();
     } else if (message.command == 'next_day'){
-        show_next_day();
+        showNextDay();
     } else if (message.command == 'first_day_of_the_month'){
-        show_first_day();
+        showFirstDay();
     }
 })
 
@@ -78,9 +78,9 @@ function resetTdValues(){
 }
 
 function resetTrAttributes(){
-    let all_tr_elements = document.querySelectorAll("tbody>tr");
-    for (let tr_element of all_tr_elements){
-        tr_element.style.display = '';
+    let allTrElements = document.querySelectorAll("tbody>tr");
+    for (let trElement of allTrElements){
+        trElement.style.display = '';
     }
 }
 function populateTrValues(monthValue){
@@ -114,16 +114,16 @@ function populateTrValues(monthValue){
         if (allDays.length == currentDayIndex){break;}
     }
 
-    hide_tr_if_unoccupied();
+    hideTrIfUnoccupied();
 }
 
-function hide_tr_if_unoccupied(){
+function hideTrIfUnoccupied(){
 
     // CHeck if the last row is unoccupied, if it is unoccupied, hide it
-    let all_tr_elements = document.querySelectorAll("tbody>tr");
-    let last_tr_element = all_tr_elements[all_tr_elements.length - 1];
-    if (!last_tr_element.querySelector("td").hasAttribute("id")){
-        last_tr_element.style.display = 'none';
+    let allTrElements = document.querySelectorAll("tbody>tr");
+    let lastTrElement = allTrElements[allTrElements.length - 1];
+    if (!lastTrElement.querySelector("td").hasAttribute("id")){
+        lastTrElement.style.display = 'none';
     }
 }
 
@@ -180,7 +180,7 @@ function highlightCurrentDay(firstTime){
         console.log(error) ;
     }
 }
-function changeMonthAndYear(type, button_selected = false){
+function changeMonthAndYear(type, buttonSelected = false){
     
 
     let monthElement = document.querySelector("#current_month");
@@ -209,7 +209,7 @@ function changeMonthAndYear(type, button_selected = false){
         monthValue = monthsInEng[index+1];
         }
     
-    if (button_selected){
+    if (buttonSelected){
         monthValue = indexToMonth[currentNepaliDate.getMonth()];
         monthElement.innerText = monthValue;
         yearValue = currentNepaliDate.getYear();
@@ -281,7 +281,7 @@ function displayDayInformation(TdElement){
     highlightCurrentDay(false);
 }
 
-function show_today(){
+function showToday(){
         changeMonthAndYear(null, true);
         removeHighlightedDay();
         let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
@@ -293,7 +293,7 @@ function show_today(){
         highlightCurrentDay(true);
 }
 
-function change_calendar_to_required_month_and_year(year , monthIndex){
+function changeCalendarToRequiredMonthAndYear(year , monthIndex){
 
     let monthElement = document.querySelector("#current_month");
     let yearElement = document.querySelector("#current_year");
@@ -303,7 +303,7 @@ function change_calendar_to_required_month_and_year(year , monthIndex){
 
 }
 
-function show_next_day(){
+function showNextDay(){
 
     // use the currentSelectedTdElementID to get currently selected date values
     let selected_date_array = currentSelectedTdElementID.split('-');
@@ -311,7 +311,7 @@ function show_next_day(){
     let monthIndex = selected_date_array[1] - 1;
     let day = selected_date_array[2];
 
-    change_calendar_to_required_month_and_year(year, monthIndex)
+    changeCalendarToRequiredMonthAndYear(year, monthIndex)
 
     let nextDayValue = Number(day) + 1;
     let nextYearValue = Number(year);
@@ -343,14 +343,14 @@ function show_next_day(){
     }
 }
 
-function show_previous_day(){
+function showPreviousDay(){
 
     let selected_date_array = currentSelectedTdElementID.split('-');
     let year = selected_date_array[0];
     let monthIndex = selected_date_array[1] - 1;
     let day = selected_date_array[2];
 
-    change_calendar_to_required_month_and_year(year, monthIndex)
+    changeCalendarToRequiredMonthAndYear(year, monthIndex)
 
     let previousDayValue = Number(day) - 1;
     let previousYearValue = Number(year);
@@ -383,7 +383,7 @@ function show_previous_day(){
 
 }
 
-function show_first_day(){
+function showFirstDay(){
     let currentYearValue = Number(document.querySelector("#current_year").innerText);
     let monthName = capitalizeString(document.querySelector("#current_month").innerText.toLowerCase());
     let currentMonthIndex = monthToIndex[monthName];
@@ -408,7 +408,7 @@ window.onload = function (){
     document.querySelector("#current_year").innerText = yearValue;
 
     document.querySelector("#today_button").addEventListener("click", ()=>{
-            show_today();
+            showToday();
         })
 
     createTrValues();
