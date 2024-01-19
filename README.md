@@ -1,6 +1,6 @@
 # Patro
 
-HamroPatro has too much ads. We scrape their website, save data (date and tihis) in JSON and build alternative simpler ad-free mobile app and website out of it.
+HamroPatro has too much ads. We scrape their website, save data (date and tihis) in JSON and build alternative simpler ad-free mobile app, website and CLI out of it.
 
 ## API
 
