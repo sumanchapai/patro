@@ -1,3 +1,23 @@
+// Connect to background.js
+chrome.runtime.connect({name:"popup"});
+
+// Connect commands from background.js with the listener
+chrome.runtime.onMessage.addListener((message)=>{
+    if (message.command == 'previous_month'){
+        changeMonthAndYear("previous");
+    } else if (message.command == 'next_month'){
+        changeMonthAndYear("next");
+    } else if (message.command == 'today'){
+        showToday();
+    } else if (message.command == 'previous_day'){
+        showPreviousDay();
+    } else if (message.command == 'next_day'){
+        showNextDay();
+    } else if (message.command == 'first_day_of_the_month'){
+        showFirstDay();
+    }
+})
+
 var monthsInEng = ["baishakh", "jestha", "asar", "shrawan",
         "bhadau", "aswin", "kartik", "mansir", 
         "poush", "magh", "falgun", "chaitra"];
@@ -57,7 +77,15 @@ function resetTdValues(){
     }
 }
 
+function resetTrAttributes(){
+    let allTrElements = document.querySelectorAll("tbody>tr");
+    for (let trElement of allTrElements){
+        trElement.style.display = '';
+    }
+}
 function populateTrValues(monthValue){
+
+    resetTrAttributes();
     resetTdValues();
     let tbodyElement = document.querySelector("tbody");
     let allTdElements = tbodyElement.querySelectorAll("td");
@@ -84,6 +112,18 @@ function populateTrValues(monthValue){
         tdElement.setAttribute("id",allDays[currentDayIndex]["nep_date"]);
         currentDayIndex++;
         if (allDays.length == currentDayIndex){break;}
+    }
+
+    hideTrIfUnoccupied();
+}
+
+function hideTrIfUnoccupied(){
+
+    // CHeck if the last row is unoccupied, if it is unoccupied, hide it
+    let allTrElements = document.querySelectorAll("tbody>tr");
+    let lastTrElement = allTrElements[allTrElements.length - 1];
+    if (!lastTrElement.querySelector("td").hasAttribute("id")){
+        lastTrElement.style.display = 'none';
     }
 }
 
@@ -140,7 +180,7 @@ function highlightCurrentDay(firstTime){
         console.log(error) ;
     }
 }
-function changeMonthAndYear(type, button_selected = false){
+function changeMonthAndYear(type, buttonSelected = false){
     
 
     let monthElement = document.querySelector("#current_month");
@@ -169,7 +209,7 @@ function changeMonthAndYear(type, button_selected = false){
         monthValue = monthsInEng[index+1];
         }
     
-    if (button_selected){
+    if (buttonSelected){
         monthValue = indexToMonth[currentNepaliDate.getMonth()];
         monthElement.innerText = monthValue;
         yearValue = currentNepaliDate.getYear();
@@ -200,7 +240,7 @@ function populateWeekdays(element, arrayList){
 
 function createTrValues(){
     let tbody = document.querySelector("tbody");
-    for (let i=0; i < 5; i++){
+    for (let i=0; i < 6; i++){
         let trElement = document.createElement("tr");
         for (let i=0; i < 7; i++){
             let tdElement = document.createElement("td");
@@ -241,6 +281,118 @@ function displayDayInformation(TdElement){
     highlightCurrentDay(false);
 }
 
+function showToday(){
+        changeMonthAndYear(null, true);
+        removeHighlightedDay();
+        let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
+        currentSelectedTdElement = currentDateTdElement;
+        currentSelectedTdElementID = currentDateTdElement.id;
+        // The argument first time is passed as true as
+        // we also want to display the current days info
+        // just like we would when someone opens the extension
+        highlightCurrentDay(true);
+}
+
+function changeCalendarToRequiredMonthAndYear(year , monthIndex){
+
+    let monthElement = document.querySelector("#current_month");
+    let yearElement = document.querySelector("#current_year");
+    yearElement.innerText = year
+    monthElement.innerText = indexToMonth[monthIndex];
+    showCalendar(monthIndex, year);
+
+}
+
+function showNextDay(){
+
+    // use the currentSelectedTdElementID to get currently selected date values
+    let selected_date_array = currentSelectedTdElementID.split('-');
+    let year = selected_date_array[0];
+    let monthIndex = selected_date_array[1] - 1;
+    let day = selected_date_array[2];
+
+    changeCalendarToRequiredMonthAndYear(year, monthIndex)
+
+    let nextDayValue = Number(day) + 1;
+    let nextYearValue = Number(year);
+    let nextMonthValue = Number(monthIndex);
+    // Check if the next day value is valid
+    // If nextDayValue day falls in the same month, then no problem
+    // else, it will be the first day of the next month
+    if (nextDayValue > ALL_YEARS_DATA[year]['months'][indexToMonth[monthIndex]]["days"].length){
+        // not possible to be in the same month
+        // increase monthvalue and set day to 1
+        nextDayValue = 1;
+        nextMonthValue++;
+        if (nextMonthValue > 11){
+            // the next day is the new year day
+            nextMonthValue = 0;
+            nextYearValue++;
+        }
+    }
+    
+    // simulate as if someone clicked that day
+    let elementID = `${nextYearValue}-${nextMonthValue+1}-${nextDayValue}`
+
+    if (nextDayValue != 1){
+    displayDayInformation(document.getElementById(elementID));
+    } else {
+    // But we need to change calendar month if needed
+    changeMonthAndYear('next');
+    displayDayInformation(document.getElementById(elementID));
+    }
+}
+
+function showPreviousDay(){
+
+    let selected_date_array = currentSelectedTdElementID.split('-');
+    let year = selected_date_array[0];
+    let monthIndex = selected_date_array[1] - 1;
+    let day = selected_date_array[2];
+
+    changeCalendarToRequiredMonthAndYear(year, monthIndex)
+
+    let previousDayValue = Number(day) - 1;
+    let previousYearValue = Number(year);
+    let previousMonthValue = Number(monthIndex);
+
+    // Check if the previous day value is valid
+    // invalid if day value is 0
+    if (previousDayValue < 1){
+        // not possible to be in the same month
+        // decrease monthvalue and set day to last day of previous month
+        previousMonthValue--;
+        if (previousMonthValue < 0){
+            // the next day is the new year day
+            previousMonthValue = 11;
+            previousYearValue--;
+        }
+        previousDayValue = ALL_YEARS_DATA[previousYearValue]['months'][indexToMonth[previousMonthValue]]["days"].length;
+    }
+    
+    // simulate as if someone clicked that day
+    let elementID = `${previousYearValue}-${previousMonthValue+1}-${previousDayValue}`
+
+    if (monthIndex == previousMonthValue && year == previousYearValue){
+    displayDayInformation(document.getElementById(elementID));
+    } else {
+    // But we need to change calendar month if needed
+    changeMonthAndYear('previous');
+    displayDayInformation(document.getElementById(elementID));
+    }
+
+}
+
+function showFirstDay(){
+    let currentYearValue = Number(document.querySelector("#current_year").innerText);
+    let monthName = capitalizeString(document.querySelector("#current_month").innerText.toLowerCase());
+    let currentMonthIndex = monthToIndex[monthName];
+
+    let elementID = `${currentYearValue}-${currentMonthIndex+1}-${1}`
+    console.log(elementID);
+    displayDayInformation(document.getElementById(elementID));
+}
+
 window.onload = function (){
 
     populateWeekdays(document.querySelector("thead"),weekNamesArray);
@@ -256,15 +408,7 @@ window.onload = function (){
     document.querySelector("#current_year").innerText = yearValue;
 
     document.querySelector("#today_button").addEventListener("click", ()=>{
-        changeMonthAndYear(null, true);
-        removeHighlightedDay();
-        let currentDateTdElement = document.getElementById(`${currentNepaliDate.getYear()}-${currentNepaliDate.getMonth()+1}-${currentNepaliDate.getDate()}`)
-        currentSelectedTdElement = currentDateTdElement;
-        currentSelectedTdElementID = currentDateTdElement.id;
-        // The argument first time is passed as true as
-        // we also want to display the current days info
-        // just like we would when someone opens the extension
-        highlightCurrentDay(true);
+            showToday();
         })
 
     createTrValues();
