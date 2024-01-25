@@ -1,4 +1,4 @@
 project_name: patro
 
 monorepo:
-  dir: cli/patro
+  dir: "cli/patro"
