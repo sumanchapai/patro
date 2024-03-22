@@ -9,6 +9,8 @@ github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWE
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/opensource-nepal/go-nepali v0.2.0 h1:+ecQpKgHbMvW1ymB3p6zeeymls0reLaJmoNl9W5mRws=
 github.com/opensource-nepal/go-nepali v0.2.0/go.mod h1:EGIwDjCoiF9Iu+Fhg0RT4aPhkqyz3+VGGd9hb69wzVk=
+github.com/opensource-nepal/go-nepali v0.2.1 h1:+87IafdUTzg0sSo9jbzRgnfsLkrXy7dfbJzawx0ndJY=
+github.com/opensource-nepal/go-nepali v0.2.1/go.mod h1:EGIwDjCoiF9Iu+Fhg0RT4aPhkqyz3+VGGd9hb69wzVk=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.8.1 h1:w7B6lhMri9wdJUVmEZPGGhZzrYTPvgJArz7wNPgYKsk=

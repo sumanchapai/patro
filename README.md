@@ -19,7 +19,7 @@ You can get the Patro chrome extension at the chrome web store [here](https://ch
 
 ## CLI
 
-Install the CLI by running
+Install the CLI by running (with `go >= 1.21` installed)
 
 ```bash
 go install github.com/sumanchapai/patro/cli/patro@latest
