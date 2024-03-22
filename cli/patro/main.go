@@ -33,9 +33,19 @@ type CalMonth struct {
 func main() {
 	// Get args without program
 	args := os.Args[1:]
-	calMonths := validateArgs(args)
+	// Decide whether to display tithi
+	var shouldDisplayTithi bool
+	argsWithoutTithiFlags := make([]string, 0)
+	for _, arg := range args {
+		if arg == "--tithi" || arg == "-tithi" || arg == "-t" {
+			shouldDisplayTithi = true
+		} else {
+			argsWithoutTithiFlags = append(argsWithoutTithiFlags, arg)
+		}
+	}
+	calMonths := validateArgs(argsWithoutTithiFlags)
 	for i, calMonth := range calMonths {
-		DisplayMonthCalendar(calMonth.year, calMonth.month)
+		DisplayMonthCalendar(calMonth.year, calMonth.month, shouldDisplayTithi)
 		if i != len(calMonths)-1 {
 			fmt.Println()
 		}
@@ -71,7 +81,7 @@ func nepaliMonthName(number int) (string, error) {
 // Display calendar month for the given year, and month of the nepali calendar.
 // For example, to display the calendar for 2056 Karthik, you would call this
 // function with params: 2056, 7
-func DisplayMonthCalendar(year, month int) {
+func DisplayMonthCalendar(year, month int, shouldDisplayTithi bool) {
 	todayAd := today()
 	englishDate, err := dateConverter.NepaliToEnglish(year, month, 1)
 	if err != nil {
@@ -91,7 +101,14 @@ func DisplayMonthCalendar(year, month int) {
 	}
 	for {
 		isToday = (todayAd.Year() == ad.Year() && todayAd.Month() == ad.Month() && todayAd.Day() == ad.Day())
-		dayInfo, dayInfoErr := GetDayInfo(year, month, calendarDay)
+		var tithi string
+		if shouldDisplayTithi {
+			// Decide whether or not to display tithi
+			dayInfo, dayInfoErr := GetDayInfo(year, month, calendarDay)
+			if dayInfoErr == nil {
+				tithi = RomanTithi(dayInfo.Tithi)
+			}
+		}
 		if err != nil {
 			errExit(err)
 		}
@@ -112,10 +129,10 @@ func DisplayMonthCalendar(year, month int) {
 		// Display the tithi next to Saturday
 		if ad.Weekday() == time.Saturday {
 			// Only display the tithi if there isn't error getting the day info
-			if dayInfoErr == nil {
-				fmt.Printf(" - %v\n", RomanTithi(dayInfo.Tithi))
-			} else {
+			if tithi == "" {
 				fmt.Println()
+			} else {
+				fmt.Printf(" - %v\n", tithi)
 			}
 		}
 		calendarDay++

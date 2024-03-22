@@ -1,6 +1,8 @@
 # Patro
 
-HamroPatro has too much ads. We scrape their website, save data (date and tihis) in JSON and build alternative simpler ad-free mobile app, website and CLI out of it.
+HamroPatro has too much ads. We scrape their website, save data (date and tihis)
+in JSON and build alternative simpler ad-free mobile app, website and CLI out of
+it.
 
 ## API
 
@@ -10,7 +12,10 @@ For example: <https://sumanchapai.github.io/patro/2080.json>
 
 ## Chrome-extension
 
-You can get the Patro chrome extension at the chrome web store [here](https://chromewebstore.google.com/detail/patro/mnagbabdhfjkajadblahmbbddecinhml). The extension also supports various keyboard shortcuts for easier navigation which can be manually set/changed at `chrome://extensions/shortcuts`.
+You can get the Patro chrome extension at the chrome web store
+[here](https://chromewebstore.google.com/detail/patro/mnagbabdhfjkajadblahmbbddecinhml).
+The extension also supports various keyboard shortcuts for easier navigation
+which can be manually set/changed at `chrome://extensions/shortcuts`.
 
 <p align='center'>
 <img width="40%" height="350px" alt='Patro Chrome-extension' src="https://lh3.googleusercontent.com/fNbkcQY4EYpYh3prVBSccUbiuNxHAKpEssoWJj9OP6EZAtWtv95anq4CPuuBJpkNPB4dgN3uBLZ3D2cMg5zOk0w4kQs=s1280-w1280-h800">
@@ -41,3 +46,11 @@ patro <year>
 # Note that it's not patro <year> <month> to follow the convention of the cal command
 patro <month> <year>
 ```
+
+If you also want the tithis displayed on the calendar, pass the "--tithi" flag
+or "-t" as shortcut. For example,
+
+```patro -t
+```
+
+displays the patro with tithis alongside date.
