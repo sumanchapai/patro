@@ -50,7 +50,8 @@ patro <month> <year>
 If you also want the tithis displayed on the calendar, pass the "--tithi" flag
 or "-t" as shortcut. For example,
 
-```patro -t
+```bash
+patro -t
 ```
 
 displays the patro with tithis alongside date.
