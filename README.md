@@ -54,4 +54,6 @@ or "-t" as shortcut. For example,
 patro -t
 ```
 
-displays the patro with tithis alongside date.
+displays the patro with tithis alongside date. Note that because an API request
+has to be made to get the tithi, the response is a bit slower when using the
+tithi flag.
