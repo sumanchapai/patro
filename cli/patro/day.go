@@ -62,9 +62,6 @@ func getYearInfo(year int) *YearInfo {
 		return nil
 	}
 	var yearMap Year
-	if err != nil {
-		panic(err)
-	}
 	defer dataFile.Close()
 	err = json.NewDecoder(dataFile).Decode(&yearMap)
 	return &YearInfo{year: yearMap, err: err}
