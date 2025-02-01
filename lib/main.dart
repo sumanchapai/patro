@@ -61,6 +61,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             BigCard(),
+            DayInfoWidget(),
             SingleChildScrollView(
               padding: EdgeInsets.all(32),
               child: CleanNepaliCalendar(
@@ -96,7 +97,7 @@ class MyHomePage extends StatelessWidget {
                 },
                 calendarStyle: CalendarStyle(
                   weekEndTextColor: Colors.red,
-                  selectedColor: Colors.red,
+                  selectedColor: const Color.fromARGB(255, 229, 144, 138),
                   dayStyle: TextStyle(fontWeight: FontWeight.bold),
                   todayStyle: TextStyle(
                     fontSize: 20.0,
@@ -126,7 +127,6 @@ class MyHomePage extends StatelessWidget {
                 },
               ),
             ),
-            DayInfoWidget(),
           ],
         ),
       ),
@@ -144,14 +144,33 @@ class DayInfoWidget extends StatelessWidget {
     NepaliDateTime selectedDate = appState.current;
 
     // Get Nepali Tithi and Day Name
-    String tithi = NepaliDateFormat('d').format(
-        selectedDate); // Simplified tithi (you can modify this to get exact Tithi)
-    String dayNameNepali = NepaliDateFormat('EEEE', Language.nepali)
-        .format(selectedDate); // Day name in Nepali
-    String englishDate = DateFormat('yyyy-MM-dd').format(DateTime(
+    String tithi = NepaliDateFormat('d').format(selectedDate);
+    String dayNameInEnglish = DateFormat('EEEE').format(DateTime(
         selectedDate.year,
         selectedDate.month,
-        selectedDate.day)); // English date
+        selectedDate.day)); // Day name in English
+// Simplified tithi (you can modify this to get exact Tithi)
+    // Map English day names to Nepali day names
+    //  i changed the mapping by -1 as in nepali 0 is sunday not monday
+    Map<String, String> nepaliDayNames = {
+      'Sunday': 'शनिवार',
+      'Monday': 'आइतवार',
+      'Tuesday': 'सोमवार',
+      'Wednesday': 'मंगलवार',
+      'Thursday': 'बुधवार',
+      'Friday': 'बिहीवार',
+      'Saturday': 'शुक्रवार',
+    };
+    String dayNameNepali = nepaliDayNames[dayNameInEnglish] ?? '';
+    DateTime adDate =
+        DateTime(selectedDate.year, selectedDate.month, selectedDate.day);
+
+    String englishDate = DateFormat('yyyy-MM-dd').format(
+        DateTime(selectedDate.year, selectedDate.month, selectedDate.day));
+
+    // English date
+    String todayADDate = DateFormat('yyyy-MM-dd').format(DateTime.now());
+    String selectedADDate = DateFormat('yyyy-MM-dd').format(adDate);
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 16),
@@ -162,15 +181,28 @@ class DayInfoWidget extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Tithi: $tithi', style: TextStyle(fontSize: 18)),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text('Tithi: $tithi', style: TextStyle(fontSize: 18)),
+              ),
               // Add more Tithi-related info here if needed
             ],
           ),
           // Middle: English Date
-          Text(englishDate,
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(englishDate,
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              Text('$selectedADDate',
+                  style: TextStyle(fontSize: 16)), // Today's AD date
+            ],
+          ),
           // Right side: Day name in Nepali (e.g., Sukrabar)
-          Text(dayNameNepali, style: TextStyle(fontSize: 18)),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(dayNameNepali, style: TextStyle(fontSize: 18)),
+          ),
         ],
       ),
     );
