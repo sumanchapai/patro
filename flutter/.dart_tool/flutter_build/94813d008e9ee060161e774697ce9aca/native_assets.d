@@ -1,0 +1,1 @@
+ /Users/nis/Documents/nis/projects/patro/.dart_tool/flutter_build/94813d008e9ee060161e774697ce9aca/native_assets.yaml: 
