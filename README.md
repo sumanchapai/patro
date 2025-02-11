@@ -2,7 +2,7 @@
 
 **Patro** is a Flutter-based mobile application that provides an ad-free solution for viewing the current Nepali and English date-time. The app is lightweight, fast, and designed for simplicity.
 
-![Patro App Screenshot](assets/screenshot.png)
+<img src="flutter/assets/screenshot.jpg" alt="Patro App Screenshot" width="200">
 
 ## Features
 - Display current Nepali and English date
