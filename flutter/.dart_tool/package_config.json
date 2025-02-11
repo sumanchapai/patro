@@ -117,7 +117,7 @@
     },
     {
       "name": "nepali_utils",
-      "rootUri": "file:///Users/nis/.pub-cache/hosted/pub.dev/nepali_utils-3.0.4",
+      "rootUri": "file:///Users/nis/.pub-cache/hosted/pub.dev/nepali_utils-3.0.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -135,7 +135,7 @@
     },
     {
       "name": "provider",
-      "rootUri": "file:///Users/nis/.pub-cache/hosted/pub.dev/provider-6.1.1",
+      "rootUri": "file:///Users/nis/.pub-cache/hosted/pub.dev/provider-6.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -200,10 +200,10 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2025-02-01T21:50:24.387527Z",
+  "generated": "2025-02-11T03:22:55.250389Z",
   "generator": "pub",
-  "generatorVersion": "3.6.1",
+  "generatorVersion": "3.6.2",
   "flutterRoot": "file:///Users/nis/softwares/flutter",
-  "flutterVersion": "3.27.3",
+  "flutterVersion": "3.27.4",
   "pubCache": "file:///Users/nis/.pub-cache"
 }
