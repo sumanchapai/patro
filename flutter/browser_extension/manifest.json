@@ -1,0 +1,50 @@
+{
+    "name": "Patro",
+    "description": "Minimalistic And Simple Nepali Calendar",
+    "manifest_version": 3,
+    "version": "1.2.1",
+    "background": {"service_worker": "script/background.js"},
+    "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "action":{
+        "default_popup": "index.html"
+    },
+    "commands":{
+        "_execute_action":{
+            "suggested_key": {"default": "Ctrl+P",
+                                "mac":"MacCtrl+P"
+        }
+        },
+        "previous_month":{
+            "suggested_key": {"default": "Ctrl+H",
+                                "mac":"MacCtrl+H"
+        },
+            "description": "View the previous month in calendar"
+        },
+        "next_month":{
+            "suggested_key": {"default": "Ctrl+L",
+                                "mac":"MacCtrl+L"
+        },
+            "description": "View the next month in calendar"
+        },
+        "today":{
+            "suggested_key": {"default": "Ctrl+T",
+                                "mac":"MacCtrl+T"
+        },
+            "description": "Select the current day"
+        },
+        "previous_day":{
+            "description": "Select the previous day in calendar"
+        },
+        "next_day":{
+            "description": "Select the next day in calendar"
+        },
+        "first_day_of_the_month":{
+            "description": "Select the first day of the currently viewing month"
+        }
+    }
+}

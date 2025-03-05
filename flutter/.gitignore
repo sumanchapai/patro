@@ -1,0 +1,6 @@
+*.venv/
+*.swp
+*__pycache__
+*DS_Store
+*.orig
+/build/

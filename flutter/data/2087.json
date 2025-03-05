@@ -1,0 +1,3822 @@
+{
+  "months": {
+    "Baishakh": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-1-1",
+          "eng_date": "2030-4-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-1-2",
+          "eng_date": "2030-4-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-1-3",
+          "eng_date": "2030-4-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-1-4",
+          "eng_date": "2030-4-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-5",
+          "eng_date": "2030-4-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-1-6",
+          "eng_date": "2030-4-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-7",
+          "eng_date": "2030-4-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-1-8",
+          "eng_date": "2030-4-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-1-9",
+          "eng_date": "2030-4-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-1-10",
+          "eng_date": "2030-4-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-1-11",
+          "eng_date": "2030-4-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-12",
+          "eng_date": "2030-4-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-1-13",
+          "eng_date": "2030-4-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-14",
+          "eng_date": "2030-4-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-1-15",
+          "eng_date": "2030-4-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-1-16",
+          "eng_date": "2030-4-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-1-17",
+          "eng_date": "2030-4-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-1-18",
+          "eng_date": "2030-5-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-19",
+          "eng_date": "2030-5-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-1-20",
+          "eng_date": "2030-5-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-21",
+          "eng_date": "2030-5-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-1-22",
+          "eng_date": "2030-5-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-1-23",
+          "eng_date": "2030-5-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-1-24",
+          "eng_date": "2030-5-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-1-25",
+          "eng_date": "2030-5-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-26",
+          "eng_date": "2030-5-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-1-27",
+          "eng_date": "2030-5-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-1-28",
+          "eng_date": "2030-5-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-1-29",
+          "eng_date": "2030-5-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-1-30",
+          "eng_date": "2030-5-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-1-31",
+          "eng_date": "2030-5-14"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u0935\u0948\u0936\u093e\u0916",
+      "eng_months": "Apr/May",
+      "eng_years": "2030",
+      "first_day_AD": "2030-4-14",
+      "last_day_AD": "2030-5-14",
+      "first_day_BS": "2087-1-1",
+      "last_day_BS": "2087-1-31"
+    },
+    "Jestha": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-2-1",
+          "eng_date": "2030-5-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-2",
+          "eng_date": "2030-5-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-2-3",
+          "eng_date": "2030-5-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-4",
+          "eng_date": "2030-5-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-2-5",
+          "eng_date": "2030-5-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-2-6",
+          "eng_date": "2030-5-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-2-7",
+          "eng_date": "2030-5-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-2-8",
+          "eng_date": "2030-5-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-9",
+          "eng_date": "2030-5-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-2-10",
+          "eng_date": "2030-5-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-11",
+          "eng_date": "2030-5-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-2-12",
+          "eng_date": "2030-5-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-2-13",
+          "eng_date": "2030-5-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-2-14",
+          "eng_date": "2030-5-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-2-15",
+          "eng_date": "2030-5-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-16",
+          "eng_date": "2030-5-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-2-17",
+          "eng_date": "2030-5-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-18",
+          "eng_date": "2030-6-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-2-19",
+          "eng_date": "2030-6-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-2-20",
+          "eng_date": "2030-6-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-2-21",
+          "eng_date": "2030-6-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-2-22",
+          "eng_date": "2030-6-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-23",
+          "eng_date": "2030-6-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-2-24",
+          "eng_date": "2030-6-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-25",
+          "eng_date": "2030-6-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-2-26",
+          "eng_date": "2030-6-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-2-27",
+          "eng_date": "2030-6-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-2-28",
+          "eng_date": "2030-6-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-2-29",
+          "eng_date": "2030-6-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-2-30",
+          "eng_date": "2030-6-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-2-31",
+          "eng_date": "2030-6-14"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u091c\u0947\u0920",
+      "eng_months": "May/Jun",
+      "eng_years": "2030",
+      "first_day_AD": "2030-5-15",
+      "last_day_AD": "2030-6-14",
+      "first_day_BS": "2087-2-1",
+      "last_day_BS": "2087-2-31"
+    },
+    "Asar": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-1",
+          "eng_date": "2030-6-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-3-2",
+          "eng_date": "2030-6-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-3-3",
+          "eng_date": "2030-6-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-3-4",
+          "eng_date": "2030-6-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-3-5",
+          "eng_date": "2030-6-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-6",
+          "eng_date": "2030-6-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-3-7",
+          "eng_date": "2030-6-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-8",
+          "eng_date": "2030-6-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-3-9",
+          "eng_date": "2030-6-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-3-10",
+          "eng_date": "2030-6-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-3-11",
+          "eng_date": "2030-6-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-3-12",
+          "eng_date": "2030-6-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-13",
+          "eng_date": "2030-6-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-3-14",
+          "eng_date": "2030-6-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-15",
+          "eng_date": "2030-6-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-3-16",
+          "eng_date": "2030-6-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-3-17",
+          "eng_date": "2030-7-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-3-18",
+          "eng_date": "2030-7-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-3-19",
+          "eng_date": "2030-7-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-20",
+          "eng_date": "2030-7-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-3-21",
+          "eng_date": "2030-7-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-22",
+          "eng_date": "2030-7-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-3-23",
+          "eng_date": "2030-7-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-3-24",
+          "eng_date": "2030-7-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-3-25",
+          "eng_date": "2030-7-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-3-26",
+          "eng_date": "2030-7-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-27",
+          "eng_date": "2030-7-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-3-28",
+          "eng_date": "2030-7-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-3-29",
+          "eng_date": "2030-7-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-3-30",
+          "eng_date": "2030-7-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-3-31",
+          "eng_date": "2030-7-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0968",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-3-32",
+          "eng_date": "2030-7-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u0905\u0938\u093e\u0930",
+      "eng_months": "Jun/Jul",
+      "eng_years": "2030",
+      "first_day_AD": "2030-6-15",
+      "last_day_AD": "2030-7-16",
+      "first_day_BS": "2087-3-1",
+      "last_day_BS": "2087-3-32"
+    },
+    "Shrawan": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-4-1",
+          "eng_date": "2030-7-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-2",
+          "eng_date": "2030-7-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-4-3",
+          "eng_date": "2030-7-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-4",
+          "eng_date": "2030-7-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-4-5",
+          "eng_date": "2030-7-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-4-6",
+          "eng_date": "2030-7-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-4-7",
+          "eng_date": "2030-7-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-4-8",
+          "eng_date": "2030-7-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-9",
+          "eng_date": "2030-7-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-4-10",
+          "eng_date": "2030-7-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-11",
+          "eng_date": "2030-7-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-4-12",
+          "eng_date": "2030-7-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-4-13",
+          "eng_date": "2030-7-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-4-14",
+          "eng_date": "2030-7-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-4-15",
+          "eng_date": "2030-7-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-16",
+          "eng_date": "2030-8-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-4-17",
+          "eng_date": "2030-8-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-18",
+          "eng_date": "2030-8-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-4-19",
+          "eng_date": "2030-8-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-4-20",
+          "eng_date": "2030-8-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-4-21",
+          "eng_date": "2030-8-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-4-22",
+          "eng_date": "2030-8-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-23",
+          "eng_date": "2030-8-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-4-24",
+          "eng_date": "2030-8-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-25",
+          "eng_date": "2030-8-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-4-26",
+          "eng_date": "2030-8-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-4-27",
+          "eng_date": "2030-8-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-4-28",
+          "eng_date": "2030-8-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-4-29",
+          "eng_date": "2030-8-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-4-30",
+          "eng_date": "2030-8-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-4-31",
+          "eng_date": "2030-8-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u0938\u093e\u0909\u0928",
+      "eng_months": "Jul/Aug",
+      "eng_years": "2030",
+      "first_day_AD": "2030-7-17",
+      "last_day_AD": "2030-8-16",
+      "first_day_BS": "2087-4-1",
+      "last_day_BS": "2087-4-31"
+    },
+    "Bhadau": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-1",
+          "eng_date": "2030-8-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-5-2",
+          "eng_date": "2030-8-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-5-3",
+          "eng_date": "2030-8-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-5-4",
+          "eng_date": "2030-8-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-5-5",
+          "eng_date": "2030-8-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-6",
+          "eng_date": "2030-8-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-5-7",
+          "eng_date": "2030-8-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-8",
+          "eng_date": "2030-8-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-5-9",
+          "eng_date": "2030-8-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-5-10",
+          "eng_date": "2030-8-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-5-11",
+          "eng_date": "2030-8-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-5-12",
+          "eng_date": "2030-8-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-13",
+          "eng_date": "2030-8-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-5-14",
+          "eng_date": "2030-8-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-15",
+          "eng_date": "2030-8-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-5-16",
+          "eng_date": "2030-9-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-5-17",
+          "eng_date": "2030-9-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-5-18",
+          "eng_date": "2030-9-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-5-19",
+          "eng_date": "2030-9-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-20",
+          "eng_date": "2030-9-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-5-21",
+          "eng_date": "2030-9-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-22",
+          "eng_date": "2030-9-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-5-23",
+          "eng_date": "2030-9-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-5-24",
+          "eng_date": "2030-9-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-5-25",
+          "eng_date": "2030-9-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-5-26",
+          "eng_date": "2030-9-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-27",
+          "eng_date": "2030-9-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-5-28",
+          "eng_date": "2030-9-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-5-29",
+          "eng_date": "2030-9-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-5-30",
+          "eng_date": "2030-9-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-5-31",
+          "eng_date": "2030-9-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u092d\u0926\u094c",
+      "eng_months": "Aug/Sep",
+      "eng_years": "2030",
+      "first_day_AD": "2030-8-17",
+      "last_day_AD": "2030-9-16",
+      "first_day_BS": "2087-5-1",
+      "last_day_BS": "2087-5-31"
+    },
+    "Aswin": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-6-1",
+          "eng_date": "2030-9-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-6-2",
+          "eng_date": "2030-9-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-3",
+          "eng_date": "2030-9-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-6-4",
+          "eng_date": "2030-9-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-5",
+          "eng_date": "2030-9-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-6-6",
+          "eng_date": "2030-9-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-6-7",
+          "eng_date": "2030-9-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-6-8",
+          "eng_date": "2030-9-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-6-9",
+          "eng_date": "2030-9-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-10",
+          "eng_date": "2030-9-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-6-11",
+          "eng_date": "2030-9-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-12",
+          "eng_date": "2030-9-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-6-13",
+          "eng_date": "2030-9-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-6-14",
+          "eng_date": "2030-9-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-6-15",
+          "eng_date": "2030-10-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-6-16",
+          "eng_date": "2030-10-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-17",
+          "eng_date": "2030-10-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-6-18",
+          "eng_date": "2030-10-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-19",
+          "eng_date": "2030-10-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-6-20",
+          "eng_date": "2030-10-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-6-21",
+          "eng_date": "2030-10-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-6-22",
+          "eng_date": "2030-10-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-6-23",
+          "eng_date": "2030-10-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-24",
+          "eng_date": "2030-10-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-6-25",
+          "eng_date": "2030-10-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-26",
+          "eng_date": "2030-10-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-6-27",
+          "eng_date": "2030-10-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-6-28",
+          "eng_date": "2030-10-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-6-29",
+          "eng_date": "2030-10-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-6-30",
+          "eng_date": "2030-10-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-6-31",
+          "eng_date": "2030-10-17"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u0905\u0938\u094b\u091c",
+      "eng_months": "Sep/Oct",
+      "eng_years": "2030",
+      "first_day_AD": "2030-9-17",
+      "last_day_AD": "2030-10-17",
+      "first_day_BS": "2087-6-1",
+      "last_day_BS": "2087-6-31"
+    },
+    "Kartik": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-7-1",
+          "eng_date": "2030-10-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-2",
+          "eng_date": "2030-10-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-7-3",
+          "eng_date": "2030-10-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-7-4",
+          "eng_date": "2030-10-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-7-5",
+          "eng_date": "2030-10-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-7-6",
+          "eng_date": "2030-10-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-7",
+          "eng_date": "2030-10-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-7-8",
+          "eng_date": "2030-10-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-9",
+          "eng_date": "2030-10-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-7-10",
+          "eng_date": "2030-10-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-7-11",
+          "eng_date": "2030-10-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-7-12",
+          "eng_date": "2030-10-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-7-13",
+          "eng_date": "2030-10-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-14",
+          "eng_date": "2030-10-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-7-15",
+          "eng_date": "2030-11-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-16",
+          "eng_date": "2030-11-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-7-17",
+          "eng_date": "2030-11-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-7-18",
+          "eng_date": "2030-11-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-7-19",
+          "eng_date": "2030-11-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-7-20",
+          "eng_date": "2030-11-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-21",
+          "eng_date": "2030-11-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-7-22",
+          "eng_date": "2030-11-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-23",
+          "eng_date": "2030-11-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-7-24",
+          "eng_date": "2030-11-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-7-25",
+          "eng_date": "2030-11-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-7-26",
+          "eng_date": "2030-11-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-7-27",
+          "eng_date": "2030-11-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-28",
+          "eng_date": "2030-11-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-7-29",
+          "eng_date": "2030-11-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-7-30",
+          "eng_date": "2030-11-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u0915\u093e\u0930\u094d\u0924\u093f\u0915",
+      "eng_months": "Oct/Nov",
+      "eng_years": "2030",
+      "first_day_AD": "2030-10-18",
+      "last_day_AD": "2030-11-16",
+      "first_day_BS": "2087-7-1",
+      "last_day_BS": "2087-7-30"
+    },
+    "Mansir": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-8-1",
+          "eng_date": "2030-11-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-8-2",
+          "eng_date": "2030-11-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-8-3",
+          "eng_date": "2030-11-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-8-4",
+          "eng_date": "2030-11-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-5",
+          "eng_date": "2030-11-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-8-6",
+          "eng_date": "2030-11-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-7",
+          "eng_date": "2030-11-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-8-8",
+          "eng_date": "2030-11-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-8-9",
+          "eng_date": "2030-11-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-8-10",
+          "eng_date": "2030-11-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-8-11",
+          "eng_date": "2030-11-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-12",
+          "eng_date": "2030-11-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-8-13",
+          "eng_date": "2030-11-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-14",
+          "eng_date": "2030-11-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-8-15",
+          "eng_date": "2030-12-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-8-16",
+          "eng_date": "2030-12-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-8-17",
+          "eng_date": "2030-12-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-8-18",
+          "eng_date": "2030-12-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-19",
+          "eng_date": "2030-12-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-8-20",
+          "eng_date": "2030-12-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-21",
+          "eng_date": "2030-12-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-8-22",
+          "eng_date": "2030-12-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-8-23",
+          "eng_date": "2030-12-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-8-24",
+          "eng_date": "2030-12-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-8-25",
+          "eng_date": "2030-12-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-26",
+          "eng_date": "2030-12-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-8-27",
+          "eng_date": "2030-12-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-8-28",
+          "eng_date": "2030-12-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-8-29",
+          "eng_date": "2030-12-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-8-30",
+          "eng_date": "2030-12-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u092e\u0902\u0938\u093f\u0930",
+      "eng_months": "Nov/Dec",
+      "eng_years": "2030",
+      "first_day_AD": "2030-11-17",
+      "last_day_AD": "2030-12-16",
+      "first_day_BS": "2087-8-1",
+      "last_day_BS": "2087-8-30"
+    },
+    "Poush": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-9-1",
+          "eng_date": "2030-12-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-9-2",
+          "eng_date": "2030-12-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-3",
+          "eng_date": "2030-12-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-9-4",
+          "eng_date": "2030-12-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-5",
+          "eng_date": "2030-12-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-9-6",
+          "eng_date": "2030-12-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-9-7",
+          "eng_date": "2030-12-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-9-8",
+          "eng_date": "2030-12-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-9-9",
+          "eng_date": "2030-12-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-10",
+          "eng_date": "2030-12-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-9-11",
+          "eng_date": "2030-12-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-12",
+          "eng_date": "2030-12-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-9-13",
+          "eng_date": "2030-12-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-9-14",
+          "eng_date": "2030-12-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-9-15",
+          "eng_date": "2030-12-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-9-16",
+          "eng_date": "2031-1-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-17",
+          "eng_date": "2031-1-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-9-18",
+          "eng_date": "2031-1-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-19",
+          "eng_date": "2031-1-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-9-20",
+          "eng_date": "2031-1-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-9-21",
+          "eng_date": "2031-1-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-9-22",
+          "eng_date": "2031-1-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-9-23",
+          "eng_date": "2031-1-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-24",
+          "eng_date": "2031-1-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-9-25",
+          "eng_date": "2031-1-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-9-26",
+          "eng_date": "2031-1-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-9-27",
+          "eng_date": "2031-1-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-9-28",
+          "eng_date": "2031-1-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-9-29",
+          "eng_date": "2031-1-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-9-30",
+          "eng_date": "2031-1-15"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u092a\u0941\u0937",
+      "eng_months": "Dec/Jan",
+      "eng_years": "2030-2031",
+      "first_day_AD": "2030-12-17",
+      "last_day_AD": "2031-1-15",
+      "first_day_BS": "2087-9-1",
+      "last_day_BS": "2087-9-30"
+    },
+    "Magh": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-1",
+          "eng_date": "2031-1-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-10-2",
+          "eng_date": "2031-1-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-3",
+          "eng_date": "2031-1-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-10-4",
+          "eng_date": "2031-1-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-10-5",
+          "eng_date": "2031-1-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-10-6",
+          "eng_date": "2031-1-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-10-7",
+          "eng_date": "2031-1-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-8",
+          "eng_date": "2031-1-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-10-9",
+          "eng_date": "2031-1-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-10",
+          "eng_date": "2031-1-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-10-11",
+          "eng_date": "2031-1-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-10-12",
+          "eng_date": "2031-1-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-10-13",
+          "eng_date": "2031-1-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-10-14",
+          "eng_date": "2031-1-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-15",
+          "eng_date": "2031-1-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-10-16",
+          "eng_date": "2031-1-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-17",
+          "eng_date": "2031-2-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-10-18",
+          "eng_date": "2031-2-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-10-19",
+          "eng_date": "2031-2-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-10-20",
+          "eng_date": "2031-2-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-10-21",
+          "eng_date": "2031-2-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-22",
+          "eng_date": "2031-2-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-10-23",
+          "eng_date": "2031-2-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-24",
+          "eng_date": "2031-2-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-10-25",
+          "eng_date": "2031-2-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-10-26",
+          "eng_date": "2031-2-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-10-27",
+          "eng_date": "2031-2-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-10-28",
+          "eng_date": "2031-2-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-10-29",
+          "eng_date": "2031-2-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-10-30",
+          "eng_date": "2031-2-14"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u092e\u093e\u0918",
+      "eng_months": "Jan/Feb",
+      "eng_years": "2031",
+      "first_day_AD": "2031-1-16",
+      "last_day_AD": "2031-2-14",
+      "first_day_BS": "2087-10-1",
+      "last_day_BS": "2087-10-30"
+    },
+    "Falgun": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-1",
+          "eng_date": "2031-2-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-11-2",
+          "eng_date": "2031-2-16"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-11-3",
+          "eng_date": "2031-2-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-11-4",
+          "eng_date": "2031-2-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-11-5",
+          "eng_date": "2031-2-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-6",
+          "eng_date": "2031-2-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-11-7",
+          "eng_date": "2031-2-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-8",
+          "eng_date": "2031-2-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-11-9",
+          "eng_date": "2031-2-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-11-10",
+          "eng_date": "2031-2-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-11-11",
+          "eng_date": "2031-2-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-11-12",
+          "eng_date": "2031-2-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-13",
+          "eng_date": "2031-2-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-11-14",
+          "eng_date": "2031-2-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-15",
+          "eng_date": "2031-3-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-11-16",
+          "eng_date": "2031-3-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-11-17",
+          "eng_date": "2031-3-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-11-18",
+          "eng_date": "2031-3-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-11-19",
+          "eng_date": "2031-3-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-20",
+          "eng_date": "2031-3-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-11-21",
+          "eng_date": "2031-3-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-22",
+          "eng_date": "2031-3-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-11-23",
+          "eng_date": "2031-3-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-11-24",
+          "eng_date": "2031-3-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-11-25",
+          "eng_date": "2031-3-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-11-26",
+          "eng_date": "2031-3-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-27",
+          "eng_date": "2031-3-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-11-28",
+          "eng_date": "2031-3-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-11-29",
+          "eng_date": "2031-3-15"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "16",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-11-30",
+          "eng_date": "2031-3-16"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u092b\u093e\u0917\u0941\u0928",
+      "eng_months": "Feb/Mar",
+      "eng_years": "2031",
+      "first_day_AD": "2031-2-15",
+      "last_day_AD": "2031-3-16",
+      "first_day_BS": "2087-11-1",
+      "last_day_BS": "2087-11-30"
+    },
+    "Chaitra": {
+      "days": [
+        {
+          "event": "--",
+          "nep": "\u0967",
+          "eng": "17",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-12-1",
+          "eng_date": "2031-3-17"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968",
+          "eng": "18",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-12-2",
+          "eng_date": "2031-3-18"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969",
+          "eng": "19",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-12-3",
+          "eng_date": "2031-3-19"
+        },
+        {
+          "event": "--",
+          "nep": "\u096a",
+          "eng": "20",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-4",
+          "eng_date": "2031-3-20"
+        },
+        {
+          "event": "--",
+          "nep": "\u096b",
+          "eng": "21",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-12-5",
+          "eng_date": "2031-3-21"
+        },
+        {
+          "event": "--",
+          "nep": "\u096c",
+          "eng": "22",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-6",
+          "eng_date": "2031-3-22"
+        },
+        {
+          "event": "--",
+          "nep": "\u096d",
+          "eng": "23",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-12-7",
+          "eng_date": "2031-3-23"
+        },
+        {
+          "event": "--",
+          "nep": "\u096e",
+          "eng": "24",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-12-8",
+          "eng_date": "2031-3-24"
+        },
+        {
+          "event": "--",
+          "nep": "\u096f",
+          "eng": "25",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-12-9",
+          "eng_date": "2031-3-25"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0966",
+          "eng": "26",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-12-10",
+          "eng_date": "2031-3-26"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0967",
+          "eng": "27",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-11",
+          "eng_date": "2031-3-27"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0968",
+          "eng": "28",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-12-12",
+          "eng_date": "2031-3-28"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u0969",
+          "eng": "29",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-13",
+          "eng_date": "2031-3-29"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096a",
+          "eng": "30",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-12-14",
+          "eng_date": "2031-3-30"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096b",
+          "eng": "31",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-12-15",
+          "eng_date": "2031-3-31"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096c",
+          "eng": "1",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-12-16",
+          "eng_date": "2031-4-1"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096d",
+          "eng": "2",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-12-17",
+          "eng_date": "2031-4-2"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096e",
+          "eng": "3",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-18",
+          "eng_date": "2031-4-3"
+        },
+        {
+          "event": "--",
+          "nep": "\u0967\u096f",
+          "eng": "4",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-12-19",
+          "eng_date": "2031-4-4"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0966",
+          "eng": "5",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-20",
+          "eng_date": "2031-4-5"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0967",
+          "eng": "6",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-12-21",
+          "eng_date": "2031-4-6"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0968",
+          "eng": "7",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-12-22",
+          "eng_date": "2031-4-7"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u0969",
+          "eng": "8",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-12-23",
+          "eng_date": "2031-4-8"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096a",
+          "eng": "9",
+          "tithi": "",
+          "eng_weekday": "Wednesday",
+          "nep_weekday": "\u092c\u0941\u0927\u0935\u093e\u0930",
+          "nep_date": "2087-12-24",
+          "eng_date": "2031-4-9"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096b",
+          "eng": "10",
+          "tithi": "",
+          "eng_weekday": "Thursday",
+          "nep_weekday": "\u092c\u093f\u0939\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-25",
+          "eng_date": "2031-4-10"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096c",
+          "eng": "11",
+          "tithi": "",
+          "eng_weekday": "Friday",
+          "nep_weekday": "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
+          "nep_date": "2087-12-26",
+          "eng_date": "2031-4-11"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096d",
+          "eng": "12",
+          "tithi": "",
+          "eng_weekday": "Saturday",
+          "nep_weekday": "\u0936\u0928\u093f\u0935\u093e\u0930",
+          "nep_date": "2087-12-27",
+          "eng_date": "2031-4-12"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096e",
+          "eng": "13",
+          "tithi": "",
+          "eng_weekday": "Sunday",
+          "nep_weekday": "\u0906\u0907\u0924\u0935\u093e\u0930",
+          "nep_date": "2087-12-28",
+          "eng_date": "2031-4-13"
+        },
+        {
+          "event": "--",
+          "nep": "\u0968\u096f",
+          "eng": "14",
+          "tithi": "",
+          "eng_weekday": "Monday",
+          "nep_weekday": "\u0938\u094b\u092e\u0935\u093e\u0930",
+          "nep_date": "2087-12-29",
+          "eng_date": "2031-4-14"
+        },
+        {
+          "event": "--",
+          "nep": "\u0969\u0966",
+          "eng": "15",
+          "tithi": "",
+          "eng_weekday": "Tuesday",
+          "nep_weekday": "\u092e\u0919\u094d\u0917\u0932\u0935\u093e\u0930",
+          "nep_date": "2087-12-30",
+          "eng_date": "2031-4-15"
+        }
+      ],
+      "nep_year": "\u0968\u0966\u096e\u096d",
+      "nep_name": "\u091a\u0948\u0924",
+      "eng_months": "Mar/Apr",
+      "eng_years": "2031",
+      "first_day_AD": "2031-3-17",
+      "last_day_AD": "2031-4-15",
+      "first_day_BS": "2087-12-1",
+      "last_day_BS": "2087-12-30"
+    }
+  },
+  "year": 2087,
+  "meta": {
+    "year_format": "YYYY-MM-DD"
+  }
+}
