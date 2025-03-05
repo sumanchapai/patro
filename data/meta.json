@@ -1,0 +1,542 @@
+{
+  "2080": {
+    "first_day_AD": "2023-4-14",
+    "last_day_AD": "2024-4-12",
+    "first_day_BS": "2080-1-1",
+    "last_day_BS": "2080-12-30"
+  },
+  "2079": {
+    "first_day_AD": "2022-4-14",
+    "last_day_AD": "2023-4-13",
+    "first_day_BS": "2079-1-1",
+    "last_day_BS": "2079-12-30"
+  },
+  "2000": {
+    "first_day_AD": "1943-4-16",
+    "last_day_AD": "1944-4-12",
+    "first_day_BS": "2000-1-1",
+    "last_day_BS": "2000-12-31"
+  },
+  "2001": {
+    "first_day_AD": "1944-4-13",
+    "last_day_AD": "1945-4-12",
+    "first_day_BS": "2001-1-1",
+    "last_day_BS": "2001-12-30"
+  },
+  "2002": {
+    "first_day_AD": "1945-4-13",
+    "last_day_AD": "1946-4-12",
+    "first_day_BS": "2002-1-1",
+    "last_day_BS": "2002-12-30"
+  },
+  "2003": {
+    "first_day_AD": "1946-4-13",
+    "last_day_AD": "1947-4-13",
+    "first_day_BS": "2003-1-1",
+    "last_day_BS": "2003-12-31"
+  },
+  "2004": {
+    "first_day_AD": "1947-4-14",
+    "last_day_AD": "1948-4-12",
+    "first_day_BS": "2004-1-1",
+    "last_day_BS": "2004-12-31"
+  },
+  "2005": {
+    "first_day_AD": "1948-4-13",
+    "last_day_AD": "1949-4-12",
+    "first_day_BS": "2005-1-1",
+    "last_day_BS": "2005-12-30"
+  },
+  "2006": {
+    "first_day_AD": "1949-4-13",
+    "last_day_AD": "1950-4-12",
+    "first_day_BS": "2006-1-1",
+    "last_day_BS": "2006-12-30"
+  },
+  "2007": {
+    "first_day_AD": "1950-4-13",
+    "last_day_AD": "1951-4-13",
+    "first_day_BS": "2007-1-1",
+    "last_day_BS": "2007-12-31"
+  },
+  "2008": {
+    "first_day_AD": "1951-4-14",
+    "last_day_AD": "1952-4-12",
+    "first_day_BS": "2008-1-1",
+    "last_day_BS": "2008-12-31"
+  },
+  "2009": {
+    "first_day_AD": "1952-4-13",
+    "last_day_AD": "1953-4-12",
+    "first_day_BS": "2009-1-1",
+    "last_day_BS": "2009-12-30"
+  },
+  "2010": {
+    "first_day_AD": "1953-4-13",
+    "last_day_AD": "1954-4-12",
+    "first_day_BS": "2010-1-1",
+    "last_day_BS": "2010-12-30"
+  },
+  "2011": {
+    "first_day_AD": "1954-4-13",
+    "last_day_AD": "1955-4-13",
+    "first_day_BS": "2011-1-1",
+    "last_day_BS": "2011-12-31"
+  },
+  "2012": {
+    "first_day_AD": "1955-4-14",
+    "last_day_AD": "1956-4-12",
+    "first_day_BS": "2012-1-1",
+    "last_day_BS": "2012-12-30"
+  },
+  "2013": {
+    "first_day_AD": "1956-4-13",
+    "last_day_AD": "1957-4-12",
+    "first_day_BS": "2013-1-1",
+    "last_day_BS": "2013-12-30"
+  },
+  "2014": {
+    "first_day_AD": "1957-4-13",
+    "last_day_AD": "1958-4-12",
+    "first_day_BS": "2014-1-1",
+    "last_day_BS": "2014-12-30"
+  },
+  "2015": {
+    "first_day_AD": "1958-4-13",
+    "last_day_AD": "1959-4-13",
+    "first_day_BS": "2015-1-1",
+    "last_day_BS": "2015-12-31"
+  },
+  "2016": {
+    "first_day_AD": "1959-4-14",
+    "last_day_AD": "1960-4-12",
+    "first_day_BS": "2016-1-1",
+    "last_day_BS": "2016-12-30"
+  },
+  "2017": {
+    "first_day_AD": "1960-4-13",
+    "last_day_AD": "1961-4-12",
+    "first_day_BS": "2017-1-1",
+    "last_day_BS": "2017-12-30"
+  },
+  "2018": {
+    "first_day_AD": "1961-4-13",
+    "last_day_AD": "1962-4-12",
+    "first_day_BS": "2018-1-1",
+    "last_day_BS": "2018-12-30"
+  },
+  "2019": {
+    "first_day_AD": "1962-4-13",
+    "last_day_AD": "1963-4-13",
+    "first_day_BS": "2019-1-1",
+    "last_day_BS": "2019-12-31"
+  },
+  "2020": {
+    "first_day_AD": "1963-4-14",
+    "last_day_AD": "1964-4-12",
+    "first_day_BS": "2020-1-1",
+    "last_day_BS": "2020-12-30"
+  },
+  "2021": {
+    "first_day_AD": "1964-4-13",
+    "last_day_AD": "1965-4-12",
+    "first_day_BS": "2021-1-1",
+    "last_day_BS": "2021-12-30"
+  },
+  "2022": {
+    "first_day_AD": "1965-4-13",
+    "last_day_AD": "1966-4-12",
+    "first_day_BS": "2022-1-1",
+    "last_day_BS": "2022-12-30"
+  },
+  "2023": {
+    "first_day_AD": "1966-4-13",
+    "last_day_AD": "1967-4-13",
+    "first_day_BS": "2023-1-1",
+    "last_day_BS": "2023-12-31"
+  },
+  "2024": {
+    "first_day_AD": "1967-4-14",
+    "last_day_AD": "1968-4-12",
+    "first_day_BS": "2024-1-1",
+    "last_day_BS": "2024-12-30"
+  },
+  "2025": {
+    "first_day_AD": "1968-4-13",
+    "last_day_AD": "1969-4-12",
+    "first_day_BS": "2025-1-1",
+    "last_day_BS": "2025-12-30"
+  },
+  "2026": {
+    "first_day_AD": "1969-4-13",
+    "last_day_AD": "1970-4-13",
+    "first_day_BS": "2026-1-1",
+    "last_day_BS": "2026-12-31"
+  },
+  "2027": {
+    "first_day_AD": "1970-4-14",
+    "last_day_AD": "1971-4-13",
+    "first_day_BS": "2027-1-1",
+    "last_day_BS": "2027-12-31"
+  },
+  "2028": {
+    "first_day_AD": "1971-4-14",
+    "last_day_AD": "1972-4-12",
+    "first_day_BS": "2028-1-1",
+    "last_day_BS": "2028-12-30"
+  },
+  "2029": {
+    "first_day_AD": "1972-4-13",
+    "last_day_AD": "1973-4-12",
+    "first_day_BS": "2029-1-1",
+    "last_day_BS": "2029-12-30"
+  },
+  "2030": {
+    "first_day_AD": "1973-4-13",
+    "last_day_AD": "1974-4-13",
+    "first_day_BS": "2030-1-1",
+    "last_day_BS": "2030-12-31"
+  },
+  "2031": {
+    "first_day_AD": "1974-4-14",
+    "last_day_AD": "1975-4-13",
+    "first_day_BS": "2031-1-1",
+    "last_day_BS": "2031-12-31"
+  },
+  "2032": {
+    "first_day_AD": "1975-4-14",
+    "last_day_AD": "1976-4-12",
+    "first_day_BS": "2032-1-1",
+    "last_day_BS": "2032-12-30"
+  },
+  "2033": {
+    "first_day_AD": "1976-4-13",
+    "last_day_AD": "1977-4-12",
+    "first_day_BS": "2033-1-1",
+    "last_day_BS": "2033-12-30"
+  },
+  "2034": {
+    "first_day_AD": "1977-4-13",
+    "last_day_AD": "1978-4-13",
+    "first_day_BS": "2034-1-1",
+    "last_day_BS": "2034-12-31"
+  },
+  "2035": {
+    "first_day_AD": "1978-4-14",
+    "last_day_AD": "1979-4-13",
+    "first_day_BS": "2035-1-1",
+    "last_day_BS": "2035-12-31"
+  },
+  "2036": {
+    "first_day_AD": "1979-4-14",
+    "last_day_AD": "1980-4-12",
+    "first_day_BS": "2036-1-1",
+    "last_day_BS": "2036-12-30"
+  },
+  "2037": {
+    "first_day_AD": "1980-4-13",
+    "last_day_AD": "1981-4-12",
+    "first_day_BS": "2037-1-1",
+    "last_day_BS": "2037-12-30"
+  },
+  "2038": {
+    "first_day_AD": "1981-4-13",
+    "last_day_AD": "1982-4-13",
+    "first_day_BS": "2038-1-1",
+    "last_day_BS": "2038-12-31"
+  },
+  "2039": {
+    "first_day_AD": "1982-4-14",
+    "last_day_AD": "1983-4-13",
+    "first_day_BS": "2039-1-1",
+    "last_day_BS": "2039-12-30"
+  },
+  "2040": {
+    "first_day_AD": "1983-4-14",
+    "last_day_AD": "1984-4-12",
+    "first_day_BS": "2040-1-1",
+    "last_day_BS": "2040-12-30"
+  },
+  "2041": {
+    "first_day_AD": "1984-4-13",
+    "last_day_AD": "1985-4-12",
+    "first_day_BS": "2041-1-1",
+    "last_day_BS": "2041-12-30"
+  },
+  "2042": {
+    "first_day_AD": "1985-4-13",
+    "last_day_AD": "1986-4-13",
+    "first_day_BS": "2042-1-1",
+    "last_day_BS": "2042-12-31"
+  },
+  "2043": {
+    "first_day_AD": "1986-4-14",
+    "last_day_AD": "1987-4-13",
+    "first_day_BS": "2043-1-1",
+    "last_day_BS": "2043-12-30"
+  },
+  "2044": {
+    "first_day_AD": "1987-4-14",
+    "last_day_AD": "1988-4-12",
+    "first_day_BS": "2044-1-1",
+    "last_day_BS": "2044-12-30"
+  },
+  "2045": {
+    "first_day_AD": "1988-4-13",
+    "last_day_AD": "1989-4-12",
+    "first_day_BS": "2045-1-1",
+    "last_day_BS": "2045-12-30"
+  },
+  "2046": {
+    "first_day_AD": "1989-4-13",
+    "last_day_AD": "1990-4-13",
+    "first_day_BS": "2046-1-1",
+    "last_day_BS": "2046-12-31"
+  },
+  "2047": {
+    "first_day_AD": "1990-4-14",
+    "last_day_AD": "1991-4-13",
+    "first_day_BS": "2047-1-1",
+    "last_day_BS": "2047-12-30"
+  },
+  "2048": {
+    "first_day_AD": "1991-4-14",
+    "last_day_AD": "1992-4-12",
+    "first_day_BS": "2048-1-1",
+    "last_day_BS": "2048-12-30"
+  },
+  "2049": {
+    "first_day_AD": "1992-4-13",
+    "last_day_AD": "1993-4-12",
+    "first_day_BS": "2049-1-1",
+    "last_day_BS": "2049-12-30"
+  },
+  "2050": {
+    "first_day_AD": "1993-4-13",
+    "last_day_AD": "1994-4-13",
+    "first_day_BS": "2050-1-1",
+    "last_day_BS": "2050-12-31"
+  },
+  "2051": {
+    "first_day_AD": "1994-4-14",
+    "last_day_AD": "1995-4-13",
+    "first_day_BS": "2051-1-1",
+    "last_day_BS": "2051-12-30"
+  },
+  "2052": {
+    "first_day_AD": "1995-4-14",
+    "last_day_AD": "1996-4-12",
+    "first_day_BS": "2052-1-1",
+    "last_day_BS": "2052-12-30"
+  },
+  "2053": {
+    "first_day_AD": "1996-4-13",
+    "last_day_AD": "1997-4-12",
+    "first_day_BS": "2053-1-1",
+    "last_day_BS": "2053-12-30"
+  },
+  "2054": {
+    "first_day_AD": "1997-4-13",
+    "last_day_AD": "1998-4-13",
+    "first_day_BS": "2054-1-1",
+    "last_day_BS": "2054-12-31"
+  },
+  "2055": {
+    "first_day_AD": "1998-4-14",
+    "last_day_AD": "1999-4-13",
+    "first_day_BS": "2055-1-1",
+    "last_day_BS": "2055-12-30"
+  },
+  "2056": {
+    "first_day_AD": "1999-4-14",
+    "last_day_AD": "2000-4-12",
+    "first_day_BS": "2056-1-1",
+    "last_day_BS": "2056-12-30"
+  },
+  "2057": {
+    "first_day_AD": "2000-4-13",
+    "last_day_AD": "2001-4-13",
+    "first_day_BS": "2057-1-1",
+    "last_day_BS": "2057-12-31"
+  },
+  "2058": {
+    "first_day_AD": "2001-4-14",
+    "last_day_AD": "2002-4-13",
+    "first_day_BS": "2058-1-1",
+    "last_day_BS": "2058-12-31"
+  },
+  "2059": {
+    "first_day_AD": "2002-4-14",
+    "last_day_AD": "2003-4-13",
+    "first_day_BS": "2059-1-1",
+    "last_day_BS": "2059-12-30"
+  },
+  "2060": {
+    "first_day_AD": "2003-4-14",
+    "last_day_AD": "2004-4-12",
+    "first_day_BS": "2060-1-1",
+    "last_day_BS": "2060-12-30"
+  },
+  "2061": {
+    "first_day_AD": "2004-4-13",
+    "last_day_AD": "2005-4-13",
+    "first_day_BS": "2061-1-1",
+    "last_day_BS": "2061-12-31"
+  },
+  "2062": {
+    "first_day_AD": "2005-4-14",
+    "last_day_AD": "2006-4-13",
+    "first_day_BS": "2062-1-1",
+    "last_day_BS": "2062-12-31"
+  },
+  "2063": {
+    "first_day_AD": "2006-4-14",
+    "last_day_AD": "2007-4-13",
+    "first_day_BS": "2063-1-1",
+    "last_day_BS": "2063-12-30"
+  },
+  "2064": {
+    "first_day_AD": "2007-4-14",
+    "last_day_AD": "2008-4-12",
+    "first_day_BS": "2064-1-1",
+    "last_day_BS": "2064-12-30"
+  },
+  "2065": {
+    "first_day_AD": "2008-4-13",
+    "last_day_AD": "2009-4-13",
+    "first_day_BS": "2065-1-1",
+    "last_day_BS": "2065-12-31"
+  },
+  "2066": {
+    "first_day_AD": "2009-4-14",
+    "last_day_AD": "2010-4-13",
+    "first_day_BS": "2066-1-1",
+    "last_day_BS": "2066-12-31"
+  },
+  "2067": {
+    "first_day_AD": "2010-4-14",
+    "last_day_AD": "2011-4-13",
+    "first_day_BS": "2067-1-1",
+    "last_day_BS": "2067-12-30"
+  },
+  "2068": {
+    "first_day_AD": "2011-4-14",
+    "last_day_AD": "2012-4-12",
+    "first_day_BS": "2068-1-1",
+    "last_day_BS": "2068-12-30"
+  },
+  "2069": {
+    "first_day_AD": "2012-4-13",
+    "last_day_AD": "2013-4-13",
+    "first_day_BS": "2069-1-1",
+    "last_day_BS": "2069-12-31"
+  },
+  "2070": {
+    "first_day_AD": "2013-4-14",
+    "last_day_AD": "2014-4-13",
+    "first_day_BS": "2070-1-1",
+    "last_day_BS": "2070-12-30"
+  },
+  "2071": {
+    "first_day_AD": "2014-4-14",
+    "last_day_AD": "2015-4-13",
+    "first_day_BS": "2071-1-1",
+    "last_day_BS": "2071-12-30"
+  },
+  "2072": {
+    "first_day_AD": "2015-4-14",
+    "last_day_AD": "2016-4-12",
+    "first_day_BS": "2072-1-1",
+    "last_day_BS": "2072-12-30"
+  },
+  "2073": {
+    "first_day_AD": "2016-4-13",
+    "last_day_AD": "2017-4-13",
+    "first_day_BS": "2073-1-1",
+    "last_day_BS": "2073-12-31"
+  },
+  "2074": {
+    "first_day_AD": "2017-4-14",
+    "last_day_AD": "2018-4-13",
+    "first_day_BS": "2074-1-1",
+    "last_day_BS": "2074-12-30"
+  },
+  "2075": {
+    "first_day_AD": "2018-4-14",
+    "last_day_AD": "2019-4-13",
+    "first_day_BS": "2075-1-1",
+    "last_day_BS": "2075-12-30"
+  },
+  "2076": {
+    "first_day_AD": "2019-4-14",
+    "last_day_AD": "2020-4-12",
+    "first_day_BS": "2076-1-1",
+    "last_day_BS": "2076-12-30"
+  },
+  "2077": {
+    "first_day_AD": "2020-4-13",
+    "last_day_AD": "2021-4-13",
+    "first_day_BS": "2077-1-1",
+    "last_day_BS": "2077-12-31"
+  },
+  "2078": {
+    "first_day_AD": "2021-4-14",
+    "last_day_AD": "2022-4-13",
+    "first_day_BS": "2078-1-1",
+    "last_day_BS": "2078-12-30"
+  },
+  "2081": {
+    "first_day_AD": "2024-4-13",
+    "last_day_AD": "2025-4-13",
+    "first_day_BS": "2081-1-1",
+    "last_day_BS": "2081-12-31"
+  },
+  "2082": {
+    "first_day_AD": "2025-4-14",
+    "last_day_AD": "2026-4-13",
+    "first_day_BS": "2082-1-1",
+    "last_day_BS": "2082-12-30"
+  },
+  "2083": {
+    "first_day_AD": "2026-4-14",
+    "last_day_AD": "2027-4-13",
+    "first_day_BS": "2083-1-1",
+    "last_day_BS": "2083-12-30"
+  },
+  "2084": {
+    "first_day_AD": "2027-4-14",
+    "last_day_AD": "2028-4-12",
+    "first_day_BS": "2084-1-1",
+    "last_day_BS": "2084-12-30"
+  },
+  "2085": {
+    "first_day_AD": "2028-4-13",
+    "last_day_AD": "2029-4-13",
+    "first_day_BS": "2085-1-1",
+    "last_day_BS": "2085-12-30"
+  },
+  "2086": {
+    "first_day_AD": "2029-4-14",
+    "last_day_AD": "2030-4-13",
+    "first_day_BS": "2086-1-1",
+    "last_day_BS": "2086-12-30"
+  },
+  "2087": {
+    "first_day_AD": "2030-4-14",
+    "last_day_AD": "2031-4-15",
+    "first_day_BS": "2087-1-1",
+    "last_day_BS": "2087-12-30"
+  },
+  "2088": {
+    "first_day_AD": "2031-4-16",
+    "last_day_AD": "2032-4-14",
+    "first_day_BS": "2088-1-1",
+    "last_day_BS": "2088-12-30"
+  },
+  "2089": {
+    "first_day_AD": "2032-4-15",
+    "last_day_AD": "2033-4-14",
+    "first_day_BS": "2089-1-1",
+    "last_day_BS": "2089-12-30"
+  }
+}
