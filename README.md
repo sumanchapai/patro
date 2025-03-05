@@ -63,14 +63,9 @@ tithi flag.
 
 <img src="flutter/assets/screenshot.jpg" alt="Patro App Screenshot" width="200">
 
-### Features
-- Display current Nepali and English date
-- Ad-free experience
-- Lightweight and efficient design
-- Built using Flutter for cross-platform compatibility
-
 ### Prerequisites
 - Flutter
+
 
 ### Steps
 1. Clone the repository:
@@ -80,6 +75,7 @@ tithi flag.
 2. Navigate to the project directory:
    ```sh
    cd patro/flutter
+
    ```
 3. Install dependencies:
    ```sh
@@ -92,3 +88,4 @@ tithi flag.
 
 ### LICENSE
 MIT
+
