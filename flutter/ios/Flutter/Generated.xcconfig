@@ -2,7 +2,7 @@
 FLUTTER_ROOT=/Users/nis/softwares/flutter
 FLUTTER_APPLICATION_PATH=/Users/nis/Documents/nis/projects/patro/flutter
 COCOAPODS_PARALLEL_CODE_SIGN=true
-FLUTTER_TARGET=lib/main.dart
+FLUTTER_TARGET=/Users/nis/Documents/nis/projects/patro/flutter/lib/main.dart
 FLUTTER_BUILD_DIR=build
 FLUTTER_BUILD_NAME=0.0.1
 FLUTTER_BUILD_NUMBER=1
@@ -11,4 +11,4 @@ EXCLUDED_ARCHS[sdk=iphoneos*]=armv7
 DART_OBFUSCATION=false
 TRACK_WIDGET_CREATION=true
 TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=.dart_tool/package_config.json
+PACKAGE_CONFIG=/Users/nis/Documents/nis/projects/patro/flutter/.dart_tool/package_config.json
